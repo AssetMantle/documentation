@@ -46,17 +46,7 @@ jobs:
         with:
           name: web
       - name: Deploy
-        uses: alinz/ssh-scp-action@master
+        uses: cloudflare/wrangler-action@1.3.0
         with:
-          host: ${{ secrets.HOST }}
-          user: ${{ secrets.USER }}
-          key: ${{ secrets.SSH_PRIVATE}}
-          port: 22
-          ssh_before: |
-            rm -r build.zip
-          # then uploads these 2 files
-          scp: |
-            build.zip ${{ secrets.USER }}@${{ secrets.HOST }}:~/build.zip
-          # then run these commands
-          ssh_after: |
-            ${{ secrets.SCRIPT_PATH }}
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          environment: 'release'
