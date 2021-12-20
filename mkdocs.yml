@@ -77,9 +77,9 @@ extra:
       link: https://pstake.medium.com
 
 #To add icon to side navigation: name is exact navigation item icon is icon path. 
-#  nav_links:
-#    - name: Overview
-#      icon: ../assets/images/overview.svg
+  nav_links:
+    - name: Overview
+      #icon: ../assets/images/overview.svg
 
 # extra:
 #   analytics:
