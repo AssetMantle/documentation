@@ -147,55 +147,8 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Overview: index.md
-     
-  - Home:
-      - What is pSTAKE: What_is_pSTAKE.md
-      - Token Model: Token_Model.md
-      - Stakeholders: Stakeholders.md
-      - Beta Launch: Beta Release.md
-  - Protocol Features:
-      - pSTAKE Operations: 
-          - Wrap: Wrapping.md
-          - Stake: Stake.md
-          - Unstake and Redeem: Unstake.md
-          - Stake LP: Stake LP.md
-          - Claim Rewards: Claim_Rewards_and_Claim_Unbonded_Tokens.md
-          - Unwrap: Unwrap.md 
-      - Moving Reward Rate : Moving_Reward_Rate.md
-  - pSTAKE User Guide:
-      - Connect blockchain wallet: How to connect a blockchain wallet.md
-      - Getting started on the App: Getting started on the App.md
-      - Deposit Tokens to get pTOKENs: How_to_wrap_tokens.md 
-      - Stake pTOKENs to get stkTOKENs: How_to_stake_tokens.md
-      - Using Stake LP: Using Stake LP feature.md
-      - Unstake stkTOKENs to get pTOKENs: How_to_unstake_tokens.md
-      - Withdraw pTOKENs to get Tokens: How_to_withdraw_wrapped_tokens.md
-  - Bridge:
-      - About: Asset_Issuance_using_the_Bridge.md
-      - Technical Architecture: Technical Architecture.md
-  - Smart Contracts:
-      - Contract List: pSTAKE_Smart_Contracts.md
-      - STokens Contract: STokens Contract.md
-      - UTokens Contract: UTokens Contract.md
-      - TokenWrapper Contract: TokenWrapper Contract.md
-      - LiquidStaking Contract: LiquidStaking Contract.md
-      - StakeLP Contract: StakeLP contract.md
-      - WhitelistedPToken Emisison Contract: WhitelistedPTokenEmission Contract.md
-      - WhitelistedReward Emisison Contract: WhitelistedRewardEmission Contract.md
-  - Governance: Governance.md
-  - Fee Structure: pSTAKE_Fee_Structure.md
-  - FAQs: Protocol.md
-  - Bug Bounty:
-      - Program Scope: Program_Scope.md 
-      - Participation Instructions: Participation_Instructions.md
-  - Staking Gala:
-      - TL;DR: TL;DR_.md
-      - Program Scope: Staking gala program scope.md
-      - Ground Rules: Staking Gala Ground Rules.md
-      - Staking Gala FAQs: Staking Gala FAQs.md
-  - Alpha Launch: 
-      - Program Scope: pSTAKE_Alpha_Launch_HOME.md
-      - Alpha Launch FAQs: pSTAKE_Alpha_Launch.md
+  - Overview: Overview.md
+  - Introduction: Introduction.md 
+
 extra_css:
   - assets/stylesheets/custom.css
