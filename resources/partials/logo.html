@@ -1,0 +1,13 @@
+  {% if config.theme.palette %}
+    {% for option in config.theme.palette %}
+      {% if option.scheme == 'default' %}
+        <img src="{{ config.theme.logo | url }}" class="logo_dark" alt="logo">
+        {% elif option.scheme == 'slate' %}
+        <img src="{{ config.theme.logo_white | url }}" class="logo_white" alt="logo">
+        {% endif %}
+    {% endfor %}
+  {% else %}
+    {% set icon = config.theme.icon.logo or "material/library" %}
+    {% include ".icons/" ~ icon ~ ".svg" %}
+  {% endif %}
+  

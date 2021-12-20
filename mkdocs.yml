@@ -1,0 +1,201 @@
+# Project information
+site_name: "pStake: Documents"
+site_description: A DeFi product enabling interchain liquid staking solution
+site_author: 
+site_url: http://docs.pstake.finance/
+
+# Repository
+repo_name: pSTAKE-BugBounty
+repo_url: http://GitHub.com/PersistenceOne/pStake-bugbounty
+edit_uri: ""
+
+# Copyright
+copyright: pStake-docs
+
+docs_dir: markdowns
+
+# Documentation and theme
+theme:
+  name: material
+  custom_dir: resources
+
+  features:
+    - tabs
+    #- instant
+  palette:
+    - scheme: default
+      primary: white
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      primary: grey
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Poppins
+    code: Poppins
+
+  icon:
+  logo: assets/images/logo.svg
+  logo_white: assets/images/logo_white.svg
+  favicon: assets/images/favicon.png
+# Plugins
+plugins:
+  - macros
+  - search:
+        indexing: 'full'
+  - minify:
+      minify_html: true
+  
+
+
+# Customization
+extra:
+  cosmos:
+    StakedToken: "stkATOM"
+    UnstakedToken: "pATOM"
+  token:
+    StakedToken: "stkTOKEN"
+    UnstakedToken: "pTOKEN"
+  XPRT:
+    StakedToken: "stkXPRT"
+    UnstakedToken: "pXPRT"
+  bridge:
+    name: "pBridge"
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/SaBKpjbnhH
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/pstakefinance
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/persistenceone
+    - icon: fontawesome/brands/medium
+      link: https://pstake.medium.com
+
+#To add icon to side navigation: name is exact navigation item icon is icon path. 
+  nav_links:
+    - name: Overview
+      icon: ../assets/images/overview.svg
+    - name: Home
+      icon: ../assets/images/home.svg
+    - name: Protocol Features
+      icon: ../assets/images/protocol.svg
+    - name: pSTAKE User Guide
+      icon: ../assets/images/user_guid.svg
+    - name: Bridge
+      icon: ../assets/images/bridge.svg
+    - name: Smart Contracts
+      icon: ../assets/images/smart_contract.svg
+    - name: Governance
+      icon: ../assets/images/governance.svg
+    - name: Fee Structure
+      icon: ../assets/images/fee.svg
+    - name: FAQs
+      icon: ../assets/images/faq.svg
+    - name: Bug Bounty
+      icon: ../assets/images/bug_bounty.svg
+    - name: Staking Gala
+      icon: ../assets/images/Staking_gala.svg
+    - name: Alpha Launch
+      icon: ../assets/images/alphalaunch.svg
+# extra:
+#   analytics:
+#     provider: google
+#     property: !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - codehilite:
+      guess_lang: false
+
+# Page tree
+nav:
+  - Overview: index.md
+     
+  - Home:
+      - What is pSTAKE: What_is_pSTAKE.md
+      - Token Model: Token_Model.md
+      - Stakeholders: Stakeholders.md
+      - Beta Launch: Beta Release.md
+  - Protocol Features:
+      - pSTAKE Operations: 
+          - Wrap: Wrapping.md
+          - Stake: Stake.md
+          - Unstake and Redeem: Unstake.md
+          - Stake LP: Stake LP.md
+          - Claim Rewards: Claim_Rewards_and_Claim_Unbonded_Tokens.md
+          - Unwrap: Unwrap.md 
+      - Moving Reward Rate : Moving_Reward_Rate.md
+  - pSTAKE User Guide:
+      - Connect blockchain wallet: How to connect a blockchain wallet.md
+      - Getting started on the App: Getting started on the App.md
+      - Deposit Tokens to get pTOKENs: How_to_wrap_tokens.md 
+      - Stake pTOKENs to get stkTOKENs: How_to_stake_tokens.md
+      - Using Stake LP: Using Stake LP feature.md
+      - Unstake stkTOKENs to get pTOKENs: How_to_unstake_tokens.md
+      - Withdraw pTOKENs to get Tokens: How_to_withdraw_wrapped_tokens.md
+  - Bridge:
+      - About: Asset_Issuance_using_the_Bridge.md
+      - Technical Architecture: Technical Architecture.md
+  - Smart Contracts:
+      - Contract List: pSTAKE_Smart_Contracts.md
+      - STokens Contract: STokens Contract.md
+      - UTokens Contract: UTokens Contract.md
+      - TokenWrapper Contract: TokenWrapper Contract.md
+      - LiquidStaking Contract: LiquidStaking Contract.md
+      - StakeLP Contract: StakeLP contract.md
+      - WhitelistedPToken Emisison Contract: WhitelistedPTokenEmission Contract.md
+      - WhitelistedReward Emisison Contract: WhitelistedRewardEmission Contract.md
+  - Governance: Governance.md
+  - Fee Structure: pSTAKE_Fee_Structure.md
+  - FAQs: Protocol.md
+  - Bug Bounty:
+      - Program Scope: Program_Scope.md 
+      - Participation Instructions: Participation_Instructions.md
+  - Staking Gala:
+      - TL;DR: TL;DR_.md
+      - Program Scope: Staking gala program scope.md
+      - Ground Rules: Staking Gala Ground Rules.md
+      - Staking Gala FAQs: Staking Gala FAQs.md
+  - Alpha Launch: 
+      - Program Scope: pSTAKE_Alpha_Launch_HOME.md
+      - Alpha Launch FAQs: pSTAKE_Alpha_Launch.md
+extra_css:
+  - assets/stylesheets/custom.css

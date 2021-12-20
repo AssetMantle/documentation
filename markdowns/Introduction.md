@@ -16,13 +16,13 @@ Challenges of Existing NFT Marketplaces
 NFT marketplaces are online platforms that bridge the gap between buyers and sellers. They function more like an exchange, with people minting and selling NFTs at a set price.
 However, these markets face a number of significant challenges such as:
 
-- High Gas Costs: They have entry barriers such as acquiring crypto to pay the gas fees (rate on-ramps for first-time users), especially on the Ethereum network.
+- **High Gas Costs** - They have entry barriers such as acquiring crypto to pay the gas fees (rate on-ramps for first-time users), especially on the Ethereum network.
 
-- Data Persistence: They do not guarantee the security and privacy of the assets being minted as NFTs.
+- **Data Persistence** - They do not guarantee the security and privacy of the assets being minted as NFTs.
 
-- Interoperability: The majority of NFT marketplaces do not support cross-chain or cross-platform transactions.
+- **Interoperability** - The majority of NFT marketplaces do not support cross-chain or cross-platform transactions.
 
-- Limited support for asset creation: Most NFT Markets focus on arts, collectibles and their relatable use-cases, neglecting the asset creation process as a major component.
+- **Limited support for asset creation** -  Most NFT Markets focus on arts, collectibles and their relatable use-cases, neglecting the asset creation process as a major component.
 
 # What is AssetMantle?
 
