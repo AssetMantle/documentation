@@ -77,31 +77,10 @@ extra:
       link: https://pstake.medium.com
 
 #To add icon to side navigation: name is exact navigation item icon is icon path. 
-  nav_links:
-    - name: Overview
-      icon: ../assets/images/overview.svg
-    - name: Home
-      icon: ../assets/images/home.svg
-    - name: Protocol Features
-      icon: ../assets/images/protocol.svg
-    - name: pSTAKE User Guide
-      icon: ../assets/images/user_guid.svg
-    - name: Bridge
-      icon: ../assets/images/bridge.svg
-    - name: Smart Contracts
-      icon: ../assets/images/smart_contract.svg
-    - name: Governance
-      icon: ../assets/images/governance.svg
-    - name: Fee Structure
-      icon: ../assets/images/fee.svg
-    - name: FAQs
-      icon: ../assets/images/faq.svg
-    - name: Bug Bounty
-      icon: ../assets/images/bug_bounty.svg
-    - name: Staking Gala
-      icon: ../assets/images/Staking_gala.svg
-    - name: Alpha Launch
-      icon: ../assets/images/alphalaunch.svg
+#  nav_links:
+#    - name: Overview
+#      icon: ../assets/images/overview.svg
+
 # extra:
 #   analytics:
 #     provider: google
