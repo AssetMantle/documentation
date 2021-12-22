@@ -81,6 +81,7 @@ extra:
     - name: Overview
       icon: ../assets/images/overview.svg
     - name: Introduction
+      icon: 
     - name: pSTAKE User Guide
       icon: ../assets/images/user_guid.svg
     - name: FAQs
