@@ -1,16 +1,14 @@
 # Project information
-site_name: "pStake: Documents"
-site_description: A DeFi product enabling interchain liquid staking solution
+site_name: "assetMantle: Documents"
+site_description: NFT marketplaces that provides all the elements required to create individual marketplaces
 site_author: 
-site_url: http://docs.pstake.finance/
+site_url: https://docs.assetmantle.one/Overview/
 
 # Repository
-repo_name: pSTAKE-BugBounty
-repo_url: http://GitHub.com/PersistenceOne/pStake-bugbounty
-edit_uri: ""
+
 
 # Copyright
-copyright: pStake-docs
+copyright: assetMantle-docs
 
 docs_dir: markdowns
 
@@ -42,7 +40,7 @@ theme:
   icon:
   logo: assets/images/logo.svg
   logo_white: assets/images/logo_white.svg
-  favicon: assets/images/favicon.png
+
 # Plugins
 plugins:
   - macros
@@ -78,8 +76,15 @@ extra:
 
 #To add icon to side navigation: name is exact navigation item icon is icon path. 
   nav_links:
+    - name: Home
+      icon: ../assets/images/home.svg
     - name: Overview
-      #icon: ../assets/images/overview.svg
+      icon: ../assets/images/overview.svg
+    - name: Introduction
+    - name: pSTAKE User Guide
+      icon: ../assets/images/user_guid.svg
+    - name: FAQs
+      icon: ../assets/images/faq.svg    
 
 # extra:
 #   analytics:
@@ -126,6 +131,7 @@ markdown_extensions:
 
 # Page tree
 nav:
+  - Home: index.md
   - Overview: Overview.md
   - Introduction: Introduction.md 
 
