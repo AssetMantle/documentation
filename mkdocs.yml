@@ -76,7 +76,7 @@ extra:
     - name: Terminology
       icon: ../assets/images/terminology.svg
     - name: Features
-      icon: ../assets/images/Features.svg
+      icon: ../assets/images/features.svg
     - name: Quick Setup
       icon: ../assets/images/setup.svg
 # extra:
