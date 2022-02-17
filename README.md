@@ -1,4 +1,4 @@
-# pStake-docs
+# AssetMantle Docs
 
 ## Install dependencies
 ```
