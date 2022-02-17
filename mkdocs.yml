@@ -39,7 +39,7 @@ theme:
 
   icon:
   logo: assets/images/logo.svg
-  logo_white: assets/images/logo_white.svg
+  logo_white: assets/images/dark_logo.svg
 
 # Plugins
 plugins:
@@ -66,27 +66,32 @@ extra:
     name: "pBridge"
   social:
     - icon: fontawesome/brands/discord
-      link: https://discord.com/invite/SaBKpjbnhH
+      link: https://discord.gg/GfKE4zWBdr
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/pstakefinance
+      link: https://twitter.com/AssetMantle
     - icon: fontawesome/brands/telegram
-      link: https://t.me/persistenceone
+      link: https://t.me/assetmantle
     - icon: fontawesome/brands/medium
-      link: https://pstake.medium.com
+      link: https://blog.assetmantle.one/
 
 #To add icon to side navigation: name is exact navigation item icon is icon path. 
   nav_links:
     - name: Home
-      icon: ../assets/images/home.svg
+      icon: assets/images/home.svg
     - name: Overview
-      icon: ../assets/images/overview.svg
+      icon: assets/images/overview.svg
     - name: Introduction
-      icon: 
+      icon: assets/images/intro.svg
     - name: pSTAKE User Guide
-      icon: ../assets/images/user_guid.svg
+      icon: assets/images/user_guid.svg
     - name: FAQs
-      icon: ../assets/images/faq.svg    
-
+      icon: assets/images/faq.svg    
+    - name: Terminology
+      icon: assets/images/terminology.svg
+    - name: Features
+      icon: assets/images/Features.svg
+    - name: Quick Setup
+      icon: assets/images/setup.svg
 # extra:
 #   analytics:
 #     provider: google
@@ -134,7 +139,10 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Overview: Overview.md
-  - Introduction: Introduction.md 
+  - Introduction: Introduction.md
+  - Terminology: Terminology.md
+  - Features: Features.md
+  - Quick Setup: Quick_Setup.md
 
 extra_css:
   - assets/stylesheets/custom.css
