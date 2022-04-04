@@ -128,11 +128,11 @@ markdown_extensions:
 # Page tree
 nav:
   - About:
-    - Introduction: "About_AssetMantle#Introduction"
-    - What is AssetMantle?: "About_AssetMantle#what-is-assetmantle"
-    - Vision of AssetMantle: "About_AssetMantle#vision-of-assetmantle"
-    - Why Cosmos Ecosystem?: "About_AssetMantle#why-did-assetmantle-choose-the-cosmos-ecosystem"
-    - Inception of AssetMantle: "About_AssetMantle#inception-of-assetmantle"
+    - Introduction: "index#Introduction"
+    - What is AssetMantle?: "index#what-is-assetmantle"
+    - Vision of AssetMantle: "index#vision-of-assetmantle"
+    - Why Cosmos Ecosystem?: "index#why-did-assetmantle-choose-the-cosmos-ecosystem"
+    - Inception of AssetMantle: "index#inception-of-assetmantle"
   - Overview:
     - Challenges of Existing Marketplaces: "Overview#challenges-of-existing-marketplaces"
     - Product Offerings: "Overview#product-offerings"
