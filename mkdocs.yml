@@ -144,9 +144,18 @@ nav:
     - Multi Chain Access: Why_Choose_AssetMantle#multi-chain-access
     - Negligible Minting Fees: Why_Choose_AssetMantle#negligible-minting-fees
     - Complete Customization: Why_Choose_AssetMantle#complete-customization
-  - MantleDrop ($MNTL Airdrop): MantleDrop_Overview.md
-  - MantleBuilder Overview: MantleBuilder_Overview.md
-  - Quick Setup: Quick_Setup.md
+  - MantleDrop ($MNTL Airdrop):
+    - StakeDrop: "MantleDrop_Overview#stakedrop"
+  - MantleBuilder Overview:
+    - What is MantleBuilder?: "MantleBuilder_Overview#what-is-mantlebuilder"
+    - Features of MantleBuilder: "MantleBuilder_Overview#features-of-mantlebuilder"
+  - Quick Setup:
+    - Overview: "Quick_Setup#overview"
+    - Prerequisites: "Quick_Setup#prerequisites"
+    - Steps to run AssetMantle: "Quick_Setup#steps-to-run-assetmantle"
+    - Understanding .script structure: "Quick_Setup#understanding-script-structure"
+    - References Links: "Quick_Setup#references-links"
+    - FAQs/Common Issues: "Quick_Setup#faqscommon-issues"
   - Contact AssetMantle: Contact_AssetMantle.md
 
 extra_css:
