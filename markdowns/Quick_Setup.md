@@ -10,8 +10,8 @@ Through Asset Mantle, we aim in providing the infrastructure for the creation of
 ## Prerequisites
 *     go v1.15+ (Install amd64 versions)
     Note: Setup GoPath & env correctly in your project directory for the binaries to be successfully executed
-    
-    
+
+
 
 ## Steps to run Asset Mantle
 1. Clone the Asset Mantle Repo
@@ -22,7 +22,7 @@ Through Asset Mantle, we aim in providing the infrastructure for the creation of
 ``` $ make install ```
 4. Once the above step is done, next steps would be running the ready-made scripts to setup & consume the commands in CLI
 ``` $ bash .script/setup.sh
-    $ bash .script/startup.sh ```    
+    $ bash .script/startup.sh ```
 
 At the end of the above code you should get the following output:
 Node and Client started up. For logs
@@ -46,12 +46,12 @@ $ assetClient --help
 
 ## Understanding .script structure
 
-``` 
+```
 1.  setup.sh
     => make & build executable binaries -> initialize the node -> add keys -> add genesis account -> add genesis transactions -> collect genesis transactions
-2.  startup.sh 
+2.  startup.sh
     => assetNode start & assetClient start
-3.  transactions.sh 
+3.  transactions.sh
     => Core components
         - Users
         - Send Coins
@@ -62,7 +62,7 @@ $ assetClient --help
         - order make and take private
         - order make and take public
         - splits send
-4. shutdown.sh 
+4. shutdown.sh
     => To shutdown the running blockchain node & client (killall)
 ```
 
@@ -78,10 +78,10 @@ $ assetClient --help
 'SecTrustedApplicationCreateFromPath' is deprecated:
 github.com/keybase/go-keychain
  first deprecated in macOS 10.15 - No longer supported [-Wdeprecated-declarations]
- 
+
  * The above watning occurs for macOS >10.15 due to the deprecated dependancies in keychain , can ignore this warning for this setup
 ```
 
 ```
-go version with arm64 may face issues while running this application, it is recommended to use amd64 based go version  for the deployment 
+go version with arm64 may face issues while running this application, it is recommended to use amd64 based go version  for the deployment
 ```
