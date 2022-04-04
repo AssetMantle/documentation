@@ -1,7 +1,7 @@
 # Project information
 site_name: "assetMantle: Documents"
 site_description: NFT marketplaces that provides all the elements required to create individual marketplaces
-site_author: 
+site_author:
 site_url: https://docs.assetmantle.one/
 
 # Repository
@@ -48,7 +48,7 @@ plugins:
         indexing: 'full'
   - minify:
       minify_html: true
-  
+
 
 
 # Customization
@@ -63,22 +63,25 @@ extra:
     - icon: fontawesome/brands/medium
       link: https://blog.assetmantle.one/
 
-#To add icon to side navigation: name is exact navigation item icon is icon path. 
+#To add icon to side navigation: name is exact navigation item icon is icon path.
   nav_links:
-    - name: Home
+    - name: About
       icon: ../assets/images/home.svg
     - name: Overview
-      icon: ../assets/images/overview.svg
-    - name: Introduction
-      icon: ../assets/images/intro.svg
-    - name: FAQs
-      icon: ../ssets/images/faq.svg    
+      icon: ../assets/images/user_guid.svg
     - name: Terminology
       icon: ../assets/images/terminology.svg
-    - name: Features
+    - name: "Why Choose AssetMantle?"
+      icon: ../assets/images/faq.svg
+    - name: "MantleDrop ($MNTL Airdrop)"
+      icon: ../assets/images/overview.svg
+    - name: "MantleBuilder Overview"
       icon: ../assets/images/features.svg
     - name: Quick Setup
       icon: ../assets/images/setup.svg
+    - name: Contact AssetMantle
+      icon: ../assets/images/intro.svg
+
 # extra:
 #   analytics:
 #     provider: google
@@ -124,12 +127,36 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
-  - Overview: Overview.md
-  - Introduction: Introduction.md
+  - About:
+    - Introduction: "About_AssetMantle#Introduction"
+    - What is AssetMantle?: "About_AssetMantle#what-is-assetmantle"
+    - Vision of AssetMantle: "About_AssetMantle#vision-of-assetmantle"
+    - Why Cosmos Ecosystem?: "About_AssetMantle#why-did-assetmantle-choose-the-cosmos-ecosystem"
+    - Inception of AssetMantle: "About_AssetMantle#inception-of-assetmantle"
+  - Overview:
+    - Challenges of Existing Marketplaces: "Overview#challenges-of-existing-marketplaces"
+    - Product Offerings: "Overview#product-offerings"
   - Terminology: Terminology.md
-  - Features: Features.md
-  - Quick Setup: Quick_Setup.md
+  - Why Choose AssetMantle?:
+    - Salient Features Of AssetMantle: Why_Choose_AssetMantle#salient-features-of-assetmantle
+    - Multiple Payment Modes: Why_Choose_AssetMantle#multiple-payment-modes
+    - Negligible Minting Fees: Why_Choose_AssetMantle#negligible-minting-fees
+    - Multi Chain Access: Why_Choose_AssetMantle#multi-chain-access
+    - Negligible Minting Fees: Why_Choose_AssetMantle#negligible-minting-fees
+    - Complete Customization: Why_Choose_AssetMantle#complete-customization
+  - MantleDrop ($MNTL Airdrop):
+    - StakeDrop: "MantleDrop_Overview#stakedrop"
+  - MantleBuilder Overview:
+    - What is MantleBuilder?: "MantleBuilder_Overview#what-is-mantlebuilder"
+    - Features of MantleBuilder: "MantleBuilder_Overview#features-of-mantlebuilder"
+  - Quick Setup:
+    - Overview: "Quick_Setup#overview"
+    - Prerequisites: "Quick_Setup#prerequisites"
+    - Steps to run AssetMantle: "Quick_Setup#steps-to-run-assetmantle"
+    - Understanding .script structure: "Quick_Setup#understanding-script-structure"
+    - References Links: "Quick_Setup#references-links"
+    - FAQs/Common Issues: "Quick_Setup#faqscommon-issues"
+  - Contact AssetMantle: Contact_AssetMantle.md
 
 extra_css:
   - assets/stylesheets/custom.css
