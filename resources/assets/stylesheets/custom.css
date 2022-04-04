@@ -1,7 +1,8 @@
 :root {
     --active-anchar-tag-color:#231F20;
-    --h1-color:#8D9CB5;
-    --h2-color:#252525;
+    --h1-color:#252525;
+    --h2-color:#8D9CB5;
+    --h3-color: #8D9CB5;
     --sidebar-bg-color:#FBFBFB;
     --body-bg-color:#ffffff;
     --content-color:#322D3E;
@@ -15,8 +16,9 @@
   @media screen {
     [data-md-color-scheme="slate"] {
         --active-anchar-tag-color:#f7f8fb;
-        --h1-color:#8D9CB5;
-        --h2-color:#252525;
+        --h1-color:#FFFFFF;
+        --h2-color:#8D9CB5;
+        --h3-color: #8D9CB5;
         --sidebar-bg-color:#2e303e;
         --body-bg-color:hsla(232, 15%, 21%, 1);
         --content-color:hsla(232, 75%, 95%, 1);
@@ -36,12 +38,12 @@
     display: flex;
     margin-top: 30px;
     justify-content: space-between;
-   
+
   }
   .maincard a {
     width: 50%;
     display: flex;
-    
+
   }
  .maincard .heading {
     font-weight: 700!important;
@@ -186,7 +188,7 @@ margin: 0;
 }
 
 .md-sidebar.md-sidebar .md-sidebar__inner .md-nav__list .md-nav__item .md-nav a.md-nav__link--active::before{
-    background-color: #E50913;
+    background-color: #FFC640;
 }
 .md-sidebar.md-sidebar .md-sidebar__inner .md-nav__list .md-nav__item .md-nav a::before{
     display: inline-block;
@@ -204,24 +206,28 @@ margin: 0;
 
 .md-content__inner.md-typeset h1{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.7rem;
     line-height: 29px;
     color: var(--h1-color);
     text-transform:uppercase;
 }
 .md-content__inner.md-typeset h2{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.25rem;
     line-height: 22px;
-    color: var(--h1-color);
+    color: var(--h2-color);
 }
 .md-content__inner.md-typeset p, .md-content__inner.md-typeset ul li{
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.8;
     color:var(--content-color);
 }
-
+.md-typeset h3{
+    font-size: 1rem;
+    color: var(--h3-color);
+    font-weight: bold;
+}
 .md-source__repository{
     font-weight: 500;
     font-size: 11px;
@@ -268,7 +274,7 @@ margin: 0;
     }
     [data-md-color-primary=black] .md-search__input{
         background-color: rgba(0,0,0,.26);
-    } 
+    }
     [data-md-color-primary=white] .md-search__input{
         background-color: #F5F5F5
     }
@@ -341,5 +347,3 @@ margin: 0;
 .custom-nav-icon img{
     padding-right: 10px;
 }
-
-

@@ -127,10 +127,23 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - About: About_AssetMantle.md
-  - Overview: Overview.md
+  - About:
+    - Introduction: "About_AssetMantle#Introduction"
+    - What is AssetMantle?: "About_AssetMantle#what-is-assetmantle"
+    - Vision of AssetMantle: "About_AssetMantle#vision-of-assetmantle"
+    - Why Cosmos Ecosystem?: "About_AssetMantle#why-did-assetmantle-choose-the-cosmos-ecosystem"
+    - Inception of AssetMantle: "About_AssetMantle#inception-of-assetmantle"
+  - Overview:
+    - Challenges of Existing Marketplaces: "Overview#challenges-of-existing-marketplaces"
+    - Product Offerings: "Overview#product-offerings"
   - Terminology: Terminology.md
-  - Why Choose AssetMantle?: Why_Choose_AssetMantle.md
+  - Why Choose AssetMantle?:
+    - Salient Features Of AssetMantle: Why_Choose_AssetMantle#salient-features-of-assetmantle
+    - Multiple Payment Modes: Why_Choose_AssetMantle#multiple-payment-modes
+    - Negligible Minting Fees: Why_Choose_AssetMantle#negligible-minting-fees
+    - Multi Chain Access: Why_Choose_AssetMantle#multi-chain-access
+    - Negligible Minting Fees: Why_Choose_AssetMantle#negligible-minting-fees
+    - Complete Customization: Why_Choose_AssetMantle#complete-customization
   - MantleDrop ($MNTL Airdrop): MantleDrop_Overview.md
   - MantleBuilder Overview: MantleBuilder_Overview.md
   - Quick Setup: Quick_Setup.md

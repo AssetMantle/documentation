@@ -18,7 +18,7 @@ AssetMantle uses Delegated Proof of Stake (DPoS) consensus mechanism and is a pa
 
 ## Multiple Payment Modes
 
-The Mantle team seeks to accelerate the mass adoption of blockchain by making web 3.0 accessible to all and even easier to build on for creators. As a result, AssetMantle will support payments using traditional CeFi banking methods and cryptocurrencies. 
+The Mantle team seeks to accelerate the mass adoption of blockchain by making web 3.0 accessible to all and even easier to build on for creators. As a result, AssetMantle will support payments using traditional CeFi banking methods and cryptocurrencies.
 
 ## Salient Features of AssetMantle
 
