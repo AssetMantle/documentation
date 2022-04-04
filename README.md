@@ -1,16 +1,19 @@
 # AssetMantle Docs
 
 ## Install dependencies
-```
+
+```shell
 python3 -m pip install -r requirements.txt
 ```
 
-## Build 
-```
-mkdocs build
+## Build
+
+```shell
+python3 -m mkdocs build
 ```
 
-## Host 
-```
-mkdocs serve
+## Host
+
+```shell
+python3 -m mkdocs serve
 ```
