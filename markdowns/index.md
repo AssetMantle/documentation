@@ -82,4 +82,4 @@ Q1 2022 — Completed Phase 1 of the [roadmap](https://blog.assetmantle.one/2022
 - Introduced $MNTL airdrop calculator
 - MantleDrop StakeDrop completed
 
-![AssetMantle Roadmap](../resources/assets/images/assetmantle_roadmap.png)
+![AssetMantle Roadmap](../assets/images/assetmantle_roadmap.png)

@@ -102,7 +102,7 @@ For every StakeDrop campaign, any active validator on the respective network can
 
 Every block, “X” $MNTL tokens are dropped (the drop per block changes every day up to a certain day, after which it becomes constant till the end of the campaign, therefore X is a variable). These X tokens per block will be distributed amongst all delegators of the network participating in the StakeDrop, i.e. each unique address. The variable is based on the ratio of individual tokens delegated with respect to the total number of tokens staked on the network by StakeDrop participants.
 
-![Token Distribution Per Block for Cosmos](../resources/assets/images//token_distribution_per_block_for_cosmos.jpg)
+![Token Distribution Per Block for Cosmos](../assets/images//token_distribution_per_block_for_cosmos.jpg)
 
 Let’s use the Cosmos Network StakeDrop campaign as an example to illustrate daily $MNTL drop rates.
 
