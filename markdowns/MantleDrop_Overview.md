@@ -32,7 +32,7 @@ Hence, the Mantle team chose to go along a similar path and build a strong commu
 ### Partner Networks for StakeDrop
 
 1. Cosmos Network
-2. AssetMantle
+2. Persistence
 3. Terra
 4. Comdex
 5. Juno
