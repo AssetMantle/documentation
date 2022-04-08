@@ -152,6 +152,7 @@ nav:
   - MantleBuilder Overview:
     - What is MantleBuilder?: "MantleBuilder_Overview#what-is-mantlebuilder"
     - Features of MantleBuilder: "MantleBuilder_Overview#features-of-mantlebuilder"
+  - AssetMantle Whitepaper: "AssetMantle_Whitepaper.md"
   - Quick Setup:
     - Overview: "Quick_Setup#overview"
     - Prerequisites: "Quick_Setup#prerequisites"
