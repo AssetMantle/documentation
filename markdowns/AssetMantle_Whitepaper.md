@@ -51,28 +51,51 @@ Features of the AssetMantle ecosystem:
 
 ## 2. Footnotes
 This section defines a few key terms and concepts which will be utilized in the proceeding section for the initiation of the reader. The reader may skip this section if they are familiar with the terms defined here. All definitions under this section are general and no new concepts are introduced in the definitions.
+
 * <sup>*[1]*</sup> `distributed system`: A system that has its components split over multiple computing machines/nodes that can communicate over a network. The components of the system may or may not be symmetric/serve the same purpose. An app split over a backend, a frontend, and a client is an example of a distributed system with asymmetric components, while a backend system with multiple load-balanced nodes would be an example of a distributed system with symmetric components.
+
 * <sup>*[2]*</sup> `consensus mechanism`: A mechanism to elect a leader/coordinator to orchestrate a task in a distributed system with symmetric components. A node elected by this mechanism by all the participating nodes may then assign the task to be processed by each node and collate the results when all the nodes have processed and submitted the result of their tasks. The leader/coordinator may be elected periodically or till the current one fails.
+
 * <sup>*[3]*</sup> `crash fault tolerance`: A distributed system that can tolerate a subset of its nodes crashing/failing disabling them from completing their tasks and continuing operations correctly. A crash fault-tolerant system accounts for its nodes to fail due to factors like network failure, hardware failure, or a system crash and hence not being able to communicate back to the coordinator of the distributed system. Such a system accounts for these failures through the redundant assignment of the same task to more than one of its nodes, so that one node crashing would not lead to the whole system failing.
+
 * <sup>*[4]*</sup> `byzantine fault tolerance`: A distributed system that can tolerate a subset of its nodes crashing/failing, disabling them to complete their task, or producing incorrect results for the task assigned to them due to system errors or deliberate misreporting with malicious intents. A Byzantine Fault Tolerant system accounts for Crash faults as well as malicious attacks originating from the participating components. Such a system accounts for these failures through the redundant assignment of the same task to more than one of its nodes, with an assumption that the majority of the nodes are not malicious.
+
 * <sup>*[5]*</sup> `distributed ledger`: A crash fault-tolerant distributed storage system. Any RAID(Redundant Array of Independent Disks) based storage system or a replicated database is an example of a distributed ledger. Distributed Ledgers are also referred to as DLTs(Distributed Ledger Technology). DLTs are best applied in use-cases where a crash fault-tolerant source of information is required for a single application that maintains and utilizes it.
+
 * <sup>*[6]*</sup> `state machine`: A system that can have a single well-defined state at any given time of a set of possible valid states. The state of the state machine changes discretely when an input is applied to the state machine.
+
 * <sup>*[7]*</sup> `blockchain`: A Byzantine Fault Tolerant distributed ledger that acts as a periodic state machine with transactions grouped into blocks as inputs to transition its state. While a Distributed Ledger may store its data in any possible format A blockchain stores its data by cryptographically appending blocks into a graph data structure to ensure the immutability of the blocks processed by the Blockchain. Blockchains are best applied in scenarios where more than one applications that do not trust each other maintain access to one source of information. All Blockchains are DLTs but the converse is not true.
+
 * <sup>*[8]*</sup> `dApp`: Any application that utilizes a Blockchain as a component of its backend. Multiple dApps can run off of one Blockchain. A dApp may have Decentralised components like a frontend, a mobile app, or a backend with business logic. The degree of distributed-ness of dApps may vary based on a case-to-case basis.
+
 * <sup>*[9]*</sup> `PoA`: A Consensus mechanism where the leader of a distributed system is elected based on their assigned authority to do so. This mechanism is suitable for distributed systems where Byzantine Fault Tolerance is not strictly required, for example for DLTs.
-* <sup>*[10]*</sup> `dPoA`: A variation of the PoA consensus mechanism where the leader of a distributed system is elected based on the authority delegated to them by the authorized actor in the system.  
+
+* <sup>*[10]*</sup> `dPoA`: A variation of the PoA consensus mechanism where the leader of a distributed system is elected based on the authority delegated to them by the authorized actor in the system. 
+
 * <sup>*[11]*</sup> `PoW`: A Consensus mechanism where the leader of a distributed system is elected based on how quickly the node solves a system-generated cryptographic puzzle. The PoW Consensus mechanism is considered wasteful because of the computational resources it requires to be spent on solving a non-related cryptographic puzzle. Also, the leader election is nondeterministic leading to the splitting of the distributed system into two or more groups if there is a communication delay between the nodes, also referred to as forking. Forking also leads to a non-finalistic application state, necessitating a confirmation period before a state of the distributed system can be considered final.
+
 * <sup>*[12]*</sup> `PoS`: A Consensus mechanism where the leader of a distributed system is elected based on a minimum limit on their economic stake in the system. The leader election is deterministic in this mechanism leading to faster finality of the system state with no confirmation periods required or forking.
+
 * <sup>*[13]*</sup> `dPoS`: A variation of the PoS Consensus mechanism where economic stakeholders in a distributed system delegate their responsibility to be elected as a leader to another node in the system.
+
 * <sup>*[14]*</sup> `proposer`: A node of a Blockchain system that is elected as the leader of the system and has to select transactions to create a block and communicate/propose it to the other participants of the system for validation. The proposer may be incentivized for proposing a block correctly. The proposer may choose to pick up transactions that pay them the most incentive or may even choose to pick no transactions at all for a block.
+
 * <sup>*[15]*</sup> `validator`: A node of a Blockchain system that is assigned the responsibility of validating the transactions proposed by the Proposer. The validators are incentivized for validating the blocks. A validator when elected can become a proposer.
-* <sup>*[16]*</sup> `chain`: A distributed system consisting of validators as its nodes, with a proposer being elected as its leader based on a specified consensus mechanism with the task of validating transactions to be proposed in a block and appending them cryptographically to a chain of blocks for a blockchain.  
+
+* <sup>*[16]*</sup> `chain`: A distributed system consisting of validators as its nodes, with a proposer being elected as its leader based on a specified consensus mechanism with the task of validating transactions to be proposed in a block and appending them cryptographically to a chain of blocks for a blockchain.
+
 * <sup>*[17]*</sup> `stake`: A representation of economic value on a PoS based blockchain that can be staked to a node participating in the consensus or can be slashed if the node goes faulty or byzantine.
+
 * <sup>*[18]*</sup> `staking`: The act of delegating the responsibility of participating in consensus, associated with the financial stake held by an actor in a dPoS blockchain system, by binding their financial stake with a validator in the system. The delegator has to carefully choose the validator to stake to as there is a penalty on the total stake incurred if the validator node acts maliciously in the system.  
+
 * <sup>*[19]*</sup> `gas`: A metric of the total work done by the chain to process a transaction sent to it.
+
 * <sup>*[20]*</sup> `transaction fees`: A representation of economic value on a chain that can be utilized by an application user to pay to the nodes participating in the consensus of the chain to process a transaction. The transaction fees are directly proportional to the gas consumed by the transaction.
+
 * <sup>*[21]*</sup> `node application`: the application logic being run by a node of a chain.
+
 * <sup>*[22]*</sup> `module`: a self-contained functionality that can modularly be composed with others to implement a `node application`
+
 * <sup>*[22]*</sup> `module clique`: Some modules are dependent on other models for their complete functionality. These modules might further depend on other modules forming a dependency chain. Such a group of modules is termed a ` module clique` of modules and represent the basic minimum set of modules that may be deployed independently as a chain.
 
 ## 4. Architecture
