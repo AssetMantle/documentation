@@ -464,6 +464,9 @@ The latest version of this paper is maintained at the AssetMantleOne github [rep
 
 ## 7. References
 1. Satoshi Nakamoto, 2008. Bitcoin: A Peer-to-Peer Electronic Cash System. Retrieved from https://bitcoin.org/bitcoin.pdf
+
 2. Libp2p, 2020. Technical Documentation. Retrieved from https://docs.libp2p.io/
+
 3. Jae Kwon, 2014. Tendermint: Consensus without Mining. Retrieved from https://tendermint.com/static/docs/tendermint.pdf
+
 4. Jae Kwon, Ethan Buchman, 2018.Cosmos: A Network of Distributed Ledgers. Retrieved from https://cosmos.network/resources/whitepaper
