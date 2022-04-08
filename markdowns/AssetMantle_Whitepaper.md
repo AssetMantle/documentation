@@ -9,12 +9,19 @@ Non-fungible tokens (NFTs) have experienced massive adoption within music, gamin
 The majority of the NFTs related applications depend on centrally administered databases with fragmented capture of information. Being centrally operated the applications allow for high TPSs when the operations are internal to the system but become painfully slow when reconciling transactions with other applications. Considerable efforts have to be respent on KCL/AML at each onboarding of the same individual due to lack of interoperability. The lack of transparency into the data of these applications also allows for manipulation and discourages auditability.
 
 AssetMantle solves these problems of traditional finances by bringing auditability and interoperability between applications through decentralization solutions. It makes it easy to define open finance applications through its toolkit:
+
 * `Node`: a set of modules that can be used together to implement a chain's `node application`.
+
 * `Client`: a set of dApp utilities like transaction queuing and ordering mechanisms, custom transaction explorers, and centralized clients built to help build applications end-to-end.
+
 * `Spec`: a standard specification for defining NFTs, RFTs, FTs, Wallets, etc to allow for a common set of transactions facilitating interoperability between all the applications built on the ecosystem.
+
 * `Core`: a common application that all the other applications in the ecosystem connect to as a raised and open moderator for interoperability, shared security, and as a gateway to other ecosystems as well.
+
 * `Integrations`: a set of integrations baked into the platform to allow for common utilities like KYC verification, and fiat on/off ramps.
+
 * `Validators`: a curated set of reputed validators with a sizable amount of assets under delegation on other DPoS applications that can be utilized to ensure security and unbiased validation and trust on application chains.
+
 * `Interoperability transactions`: a common set of transactions that all applications in the ecosystem have to implement to participate and be interoperable with other applications in the ecosystem.
 
 Table of Contents
