@@ -130,7 +130,8 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - About:
+  - Welcome to AssetMantle: index.md
+  - About: About_AssetMantle.md
     - Introduction: "#Introduction"
     - What is AssetMantle?: "#what-is-assetmantle"
     - Vision of AssetMantle: "#vision-of-assetmantle"
