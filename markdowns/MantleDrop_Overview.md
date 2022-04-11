@@ -230,7 +230,7 @@ The following are the **10 eligible pools** that would receive the Osmosis Mantl
 9. OSMO/SCRT
 10. LUNA/UST
 
-These pools reflect some of the best projects built within the Cosmos ecosystem, the Mantle team is proud to support such an incredible group of projects. To claim the Osmosis MantleDrop, users are required to complete the following during the 60-day claim window:
+These pools reflect some of the best projects built within the Cosmos ecosystem, the Mantle team is proud to support such an incredible group of projects. To claim the Osmosis MantleDrop, users are required to complete the following during the 60-day claim window starting from TGE (18 April 2022):
 
 - C0: Initial claim (30%)
 - C1: Staking (10%)
