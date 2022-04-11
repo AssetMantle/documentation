@@ -72,6 +72,8 @@ Q3 2021 — Introduced AssetMantle proof of concept with an enhancement of appli
 
 Q4 2021 — Launched AssetMantle testnet
 
+![AssetMantle Early Timeline](../assets/images/assetmantle_early_timeline.png)
+
 Q1 2022 — Completed Phase 1 of the [roadmap](https://blog.assetmantle.one/2022/02/23/assetmantle-roadmap-2022/)
 
 - Onboarded validators
