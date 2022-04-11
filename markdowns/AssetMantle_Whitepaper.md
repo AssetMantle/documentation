@@ -1,6 +1,6 @@
 AssetMantle
 ---
-**Building the decentralized infrastructure for the creator economy.**
+**Redefining Digital Asset Ownership**
 
 ![](https://img.shields.io/badge/version-v0.3.0-<COLOR>.svg)
 
@@ -29,7 +29,7 @@ Table of Contents
 [TOC]
 
 ## 1. Overview
-AssetMantle is an Interoperability Middleware for building a decentralized infrastructure for but not limited to the creator economy. The AssetMantle platform is a set of standardized tools and specifications that can be used to model Exchanges and Marketplaces by tokenizing, trading, and financing against ‘real world’ financial assets (such as Invoices, Receivables purchase agreements, Bills of Lading/Commodities, Letters of Credit, Solar Credits, etc.). Since all the Exchanges are built using the same set of AssetMantle modules and specs, there is native interoperability between all the exchanges while maintaining sovereignty. The Decentralised and Open Finance features of AssetMantle applications are leveraged for more efficient capital allocation in a trust minimized, borderless and 24/7 manner.
+AssetMantle is an Interoperability Middleware for building a decentralized infrastructure for but not limited to the creator economy. The AssetMantle platform is a set of standardized tools and specifications that can be used to model Exchanges and Marketplaces by tokenizing, trading, and financing against ‘real world’ financial assets (such as Invoices, Receivables purchase agreements, Bills of Lading/Commodities, Letters of Credit, Solar Credits, etc.). Since all the Exchanges are built using the same set of AssetMantle modules and specs, there is native interoperability between all the exchanges while maintaining sovereignty. The Decentralized and Open Finance features of AssetMantle applications are leveraged for more efficient capital allocation in a trust minimized, borderless and 24/7 manner.
 
 This new paradigm of novel use-cases can be facilitated within the AssetMantle Ecosystem using its continuously evolving toolset, which currently includes modules like Reputation, Contract, Escrow, Access Control, Hierarchy, NFT, and RFT.
 
@@ -73,7 +73,7 @@ This section defines a few key terms and concepts which will be utilized in the 
 
 * <sup>*[7]*</sup> `blockchain`: A Byzantine Fault Tolerant distributed ledger that acts as a periodic state machine with transactions grouped into blocks as inputs to transition its state. While a Distributed Ledger may store its data in any possible format A blockchain stores its data by cryptographically appending blocks into a graph data structure to ensure the immutability of the blocks processed by the Blockchain. Blockchains are best applied in scenarios where more than one applications that do not trust each other maintain access to one source of information. All Blockchains are DLTs but the converse is not true.
 
-* <sup>*[8]*</sup> `dApp`: Any application that utilizes a Blockchain as a component of its backend. Multiple dApps can run off of one Blockchain. A dApp may have Decentralised components like a frontend, a mobile app, or a backend with business logic. The degree of distributed-ness of dApps may vary based on a case-to-case basis.
+* <sup>*[8]*</sup> `dApp`: Any application that utilizes a Blockchain as a component of its backend. Multiple dApps can run off of one Blockchain. A dApp may have Decentralized components like a frontend, a mobile app, or a backend with business logic. The degree of distributed-ness of dApps may vary based on a case-to-case basis.
 
 * <sup>*[9]*</sup> `PoA`: A Consensus mechanism where the leader of a distributed system is elected based on their assigned authority to do so. This mechanism is suitable for distributed systems where Byzantine Fault Tolerance is not strictly required, for example for DLTs.
 
@@ -108,7 +108,7 @@ This section defines a few key terms and concepts which will be utilized in the 
 ## 4. Architecture
 The AssetMantle platform is architected as a distributed system with asymmetric components/chains that are run by nodes/validators. The chains run specialized node applications that are built to support different functionalities based on the requirements of dApps that facilitate open finance use cases. The chains interoperate with each other through the Core chain which implements chain interoperability functionalities and orchestrates the validators set and their (dis)incentivization. The dApps can consume the functionalities exposed by the AssetMantle Platform through the AssetMantle client component.
 
-Building and auditing decentralized financial applications is a nascent paradigm with gaps left for failure/errors. AssetMantle implements a common set of well-tested tools that can be utilized to build a wide range of such applications reducing infrastructure risks. Any upgrade/updates/vulnerability fixes to these tools are translated to all the applications built on them. This toolset is implemented across multiple platforms/protocols to make the app-building experience uniform irrespective of the platform/protocol, allowing the flexibility to migrate applications seamlessly between them based on requirement changes. There maybe many iterations/versions of these toolsets with some being added/removed.
+Building and auditing decentralized financial applications is a nascent paradigm with gaps left for failure/errors. AssetMantle implements a common set of well-tested tools that can be utilized to build a wide range of such applications reducing infrastructure risks. Any upgrade/updates/vulnerability fixes to these tools are translated to all the applications built on them. This toolset is implemented across multiple platforms/protocols to make the app-building experience uniform irrespective of the platform/protocol, allowing the flexibility to migrate applications seamlessly between them based on requirement changes. There may be many iterations/versions of these toolsets with some being added/removed.
 
 The AssetMantle ecosystem architecture relies on multiple sovereign chains with shared security and interoperability through a Core chain, the validator set, and uniform application design.
 
@@ -193,9 +193,9 @@ The Cosmos SDK defines a set of Modules required for DPoS functionalities on top
 * **AssetMantle Node Modules**
 A collection of a common set of modules that facilitates building dApps for a range of open finance and decentralized exchange applications. All the dApps built using the AssetMantle Node Modules will be natively interoperable with each other through the Core chain. The modules will be also implemented across different protocols/platforms/languages to allow inter-platform native interoperability between the applications and similar application behavior/make the application platform/language agnostic and easy to migrate across them based on requirement changes. These are some of the modules implemented by the AssetMantle Module set (this set may change in the future):
 
-* `assetFactory`: create, mutate, and burn NFT tokens. This module can be utilized for use-cases that require tokenization of assets/issuing digital assets/certificates.
+* `AssetFactory`: create, mutate, and burn NFT tokens. This module can be utilized for use-cases that require tokenization of assets/issuing digital assets/certificates.
 
-* `assetWallet`: send an `asset` to other account wallets. This module can be used if the `asset` ownership is exchangeable.
+* `AssetWallet`: send an `asset` to other account wallets. This module can be used if the `asset` ownership is exchangeable.
 
 * `reputation`: keep a count of successful transactions and allow the counterparty to set feedback against a transaction.
 
@@ -206,10 +206,10 @@ A collection of a common set of modules that facilitates building dApps for a ra
 * `maintainer`: access control and hierarchical access to transactions. This module can be utilized for a use case where there is an issuer organization or an organization with a hierarchy and division of labor.
 
 #### 4.1.1 State Machine Replication
-* **Tendermint Core**
+* **Tendermint Core:**
 A Byzantine Fault Tolerant state machine replication mechanism. The Tendermint Core is responsible for the networking, peer-to-peer gossip, and consensus layers of the node application. It implements a Proof of Stake consensus mechanism to elect a proposer for chain blocks.
 
-* **ABCI**
+* **ABCI:**
 A generic interface that the application layer has to implement to interact with the Tendermint Core functionalities. The ABCI is split into four connections for consensus, mempool, info, and snapshot. The consensus connection is a collection of methods that are responsible for consensus-related application call and block execution logic, mempool has methods to validate incoming transactions into the mempool, info has methods to query the application state and snapshot has methods to maintain and restore state snapshots. An application has to implement these methods to connect to the Tendermint Core consensus network and hence become a blockchain.
 
 Tendermint core and ABCI together form the Tendermint state replication machine with the four connections types exposed either over a network as RPC or can be compiled together with the application into one binary if the application is written in golang. The application may be written in any language and maintained and run as a separate binary along with the tendermint binary interoperating through RPCs over the network.
@@ -264,13 +264,13 @@ The Validators on the AssetMantle Platform are entities that operate nodes to va
 #### 4.2.2 Consensus Mechanism
 The consensus mechanism of a chain is decided based on the governance and economic model of the chain's business application, the security and fault tolerance level required, and the resource feasibility of the chain. The consensus mechanism used on the AssetMantle Platform are modifications of the base PoS consensus mechanism offered by the Tendermint Core with changes applied at the application layer.
 
-* **DPoS**
+* **DPoS:**
 A chain that has its definition of economic stake and requires Byzantine Fault tolerance has to implement the DPoS consensus mechanism for block proposer node election. The dPoS consensus mechanism is the default on the Core chain.
 
-* **PoA**
+* **PoA:**
 A chain that doesn't have an economic stake definition that can be slashed/minted and doesn't require Byzantine Fault tolerance has to implement the POA consensus mechanism for block proposer node election. The validator nodes can be authorized directly by the chain operators to validate.
 
-* **DPoA**
+* **DPoA:**
 A chain that doesn't have an economic stake definition that can be slashed/minted but still does require Byzantine Fault Tolerance has to implement the DPoA consensus mechanism. In this mechanism, the operators of the participating validator nodes have to bond a stake on the Core chain to be deemed eligible to validate on the application chain. The Core chain, based on the boded stake of the validator node then authorizes the nodes to validate on the application chain. The incentivization of the nodes happens at the application level and the dis-incentivization in case a node behaves maliciously is disincentivized on the Core chain.
 
 #### 4.2.3. Governance
@@ -281,10 +281,10 @@ On the AssetMantle Platform, each chain has its governance mechanism based on th
 #### 4.2.4. Validator Incentivization
 All the chains including the Core chain on the AssetMantle platform implement mechanisms to incentivize the validators, with the dis-incentivization part being handled by the consensus mechanism. There are two main categories of incentivization mechanisms on any AssetMantle platform chain:
 
-* **Block Rewards**
+* **Block Rewards:**
 Every block that is added to a chain produces block rewards. This reward serves the purpose of incentivizing validators to maintain chain liveliness when there are no transactions to propose on a given block. The block reward is calculated as a proportion of the stake that a participant has staked into the system. The stake may or may not have economic value based on some of the application chains, with then only representing the authority metric to validate on the chain.
 
-* **Transaction Fees**
+* **Transaction Fees:**
 Every transaction that is added to a block needs to be paid for by the originator of the transaction as transaction fees. The transaction fees serve the purpose of prioritization of transactions and setting limits on the work that the chain needs to perform to validate one transaction. The transaction fees are calculated as a function of the computation operations required by a node to process the transaction, plus some extra offered to prioritize the transaction(bribe to block proposer?). The fees may or may not have direct economic value but may rather be a function of multiple factors that are defined by the business application logic of the chain.
 
 ### 4.3. Platform
@@ -383,9 +383,9 @@ A complete client-facing application with a Backend, Frontend, and AssetMantle N
 #### 4.4.2. APIs
 The APIs are a set of API endpoint accessibility tools that help make help third-party client app integrations with dApp and help make the RPC endpoints easier to consume. Some of the APIs tools:
 
-* `transaction ticketing`: a real-time application generally fluctuates in TPS and requires an interface to manage the transactions to other rate-limited systems, like the Blockchain application. Current blockchain applications have been built with direct interaction with the end-user in mind with the user handling all the failures and transaction rate limiting/recovery. The `transaction ticketing` tool helps rate limit the transactions and handle error scenarios and retries.
+* `Transaction ticketing`: A real-time application generally fluctuates in TPS and requires an interface to manage the transactions to other rate-limited systems, like the Blockchain application. Current blockchain applications have been built with direct interaction with the end-user in mind with the user handling all the failures and transaction rate limiting/recovery. The `transaction ticketing` tool helps rate limit the transactions and handle error scenarios and retries.
 
-* `signer`: a light client that maintains the private keys of the end-users and signs transactions sent to it on their behalf. `signer` accepts transactions in a simple JSON format and makes the private key custody and recovery easier for the end-user.
+* `Signer`: A light client that maintains the private keys of the end-users and signs transactions sent to it on their behalf. `signer` accepts transactions in a simple JSON format and makes the private key custody and recovery easier for the end-user.
 
 * Key Management
 
@@ -394,13 +394,13 @@ The APIs are a set of API endpoint accessibility tools that help make help third
 #### 4.4.3. Web Integration Libraries
 A third-party business application can integrate and use the AssetMantle platform's dApp service by integrating with them through the Web Integration Libraries. These libraries provide integration components to consume dApp functionalities like sending transactions and querying their status, transaction success notification, and app and chain state querying.
 
-* **Wallet**: queries the user wallet's contents to display the current Fungible Token balances, NFT balances and handle metadata representation, and integrates to make payments and transfers in apps with relevant denominations.
+* **Wallet:** Queries the user wallet's contents to display the current Fungible Token balances, NFT balances and handle metadata representation, and integrates to make payments and transfers in apps with relevant denominations.
 
-* **Transaction Generation**:  accepts transaction input data from the integrating application and marshalls it into a transaction object compliant with the dApp's light client format.
+* **Transaction Generation:**  Accepts transaction input data from the integrating application and marshalls it into a transaction object compliant with the dApp's light client format.
 
-* **Signing**: accepts transaction object and Keystore with passphrase as input to generate a signed transaction. The integrating application can then relay the signed transaction to the dApp's light client.
+* **Signing:** Accepts transaction object and Keystore with passphrase as input to generate a signed transaction. The integrating application can then relay the signed transaction to the dApp's light client.
 
-* **Notification**: a subscriber client for the events published by the blockchain which converts and notifies the user about events relevant to them. The utility can be integrated at the backend of a business application too to keep its schema synced with its dApp state.
+* **Notification:** A subscriber client for the events published by the blockchain which converts and notifies the user about events relevant to them. The utility can be integrated at the backend of a business application too to keep its schema synced with its dApp state.
 
 Repository [AssetMantleJS :link:](https://github.com/AssetMantleOne/AssetMantleJS)
 
@@ -447,13 +447,13 @@ The defined architecture reduces the trust required between a customer and the a
 ### 5.4. Resource Optimization
 The Byzantine and Crash Fault-Tolerant system achieve their tolerance through replication of tasks on multiple nodes. This implies that the cost to perform a task also increases with the level of tolerance offered by the system. A different application may require different levels of fault tolerance. The described platform allows flexibility with the level of fault tolerance a dApp might need by segregating them to separate sovereign chains, instead of running all of the apps in one chain at the highest security level possible sacrificing scalability. This leads to resource optimization based on the level of security required for a business use-case.
 
-* Cost: The transaction fees incentivizes a proposer to pick a transaction when the transaction mempool is larger than the transactions that can fit in block size. In one chain for all dApps approach if a business depends on a mission-critical transaction to be processed they will have to spend extra fees to get a transaction processed. Other dApps that do not produce enough economic output to justify the transaction fees may be indefinitely halted in such scenarios. All the dApps should not depend on all the nodes to replicate the transaction. The described architecture allows a dApp to define the level of replication and fault tolerance required while segregating from other dApp operation influences. This allows for reduced transaction processing costs with predictable 
+* **Cost:** The transaction fees incentivizes a proposer to pick a transaction when the transaction mempool is larger than the transactions that can fit in block size. In one chain for all dApps approach if a business depends on a mission-critical transaction to be processed they will have to spend extra fees to get a transaction processed. Other dApps that do not produce enough economic output to justify the transaction fees may be indefinitely halted in such scenarios. All the dApps should not depend on all the nodes to replicate the transaction. The described architecture allows a dApp to define the level of replication and fault tolerance required while segregating from other dApp operation influences. This allows for reduced transaction processing costs with predictable 
 
-* Compute: All the nodes of the proposed distributed system engage in separate tasks with limited replication with no compute being spent on the wasteful leader election process. This brings down the compute resources required to validate a dApp down to basic server hardware with no dependence on complex hardware solutions like ASICs and graphic cards with 100s of processor cores.
+* **Compute:** All the nodes of the proposed distributed system engage in separate tasks with limited replication with no compute being spent on the wasteful leader election process. This brings down the compute resources required to validate a dApp down to basic server hardware with no dependence on complex hardware solutions like ASICs and graphic cards with 100s of processor cores.
 
-* Storage: Storage is one of the most critical resources in single-chain multi dApp applications since the 1 Byte of storage used by the app translates to 1*N bytes effectively used on all the nodes in such a system. By reducing the amount of replication in the system, the proposed architecture reduces the storage requirements for running a dApp allowing dApps to store a lot more data immutably on the chain itself.
+* **Storage:** Storage is one of the most critical resources in single-chain multi dApp applications since the 1 Byte of storage used by the app translates to 1*N bytes effectively used on all the nodes in such a system. By reducing the amount of replication in the system, the proposed architecture reduces the storage requirements for running a dApp allowing dApps to store a lot more data immutably on the chain itself.
 
-### 5.5. Identity & Credential management
+### 5.5. Identity & Credential Management
 One of the biggest blockers to the mass adoption of blockchain has been the trivial but risk-prone task of cryptographic key management. This has prevented numerous use cases like the usage of blockchain for payments at a mass level or institutional adoption for asset management. One of the key innovations of the AssetMantle Node architecture is the replacement of cryptographic keys as identity with an issued identity system, called interIdentity.
 
 InterIdentity allows each dApp to issue identities to the users, that serve as usernames for web applications. These identities are interoperable across the platform making it possible for other dApps to accept them as a user identity too instead of onboarding the users afresh, like OAuth. This enables the users to maintain a single identity across dApps giving a standard definition that is accepted across these dApps.
