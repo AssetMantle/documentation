@@ -233,9 +233,26 @@ The following are the **10 eligible pools** that would receive the Osmosis Mantl
 These pools reflect some of the best projects built within the Cosmos ecosystem, the Mantle team is proud to support such an incredible group of projects. To claim the Osmosis MantleDrop, users are required to complete the following during the 60-day claim window:
 
 - C0: Initial claim (30%)
-- C1: Stake (15%)
-- C2: Vote on a Governance Proposal (15%)
-- C4: MantlePlace Activity: Social Profiles Creation + Bid on Mantle verified creators NFTs (Post MantlePlace Launch) (40%)
+- C1: Staking (10%)
+- C2: Vote on a governance proposal (10%)
+- C3: Liquidity Pool creation (20%)
+- C4: Mint an NFT on MantlePlace (30%)
+
+The amount of allocated $MNTL tokens can be calculated as follows:
+
+$$
+Allocation = 750*(1-e^p)
+$$
+
+where;
+
+$x=$ $ value of locked tokens
+
+$y=$ $ value of unlocked tokens
+
+$z=1.25*x+y$
+
+$p=(-z/100)$
 
 Further, as a precautionary measure and to encourage a fair and even distribution, the token distribution is capped at a maximum of 750 $MNTL per wallet.
 
