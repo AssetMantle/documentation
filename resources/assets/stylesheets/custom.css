@@ -63,10 +63,6 @@
     justify-content: space-between;
     align-items: center;
   }
-  .card-top{
-      display: flex;
-      justify-content: space-between;
-  }
   .maincard h4, .maincard p {
     margin: 4px 0;
   }
