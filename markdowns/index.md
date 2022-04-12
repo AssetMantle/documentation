@@ -21,7 +21,7 @@ AssetMantle utilizes the interNFT standard which is inspired from decentralized 
          </div>
          <p>If you’re new to AssetMantle,  start here!</p>
       </div>
-      <img src="../assets/images/AssetMantle Logo Square.png" /> 
+      <img src="../assets/images/AssetMantle_Logo_Square.png" /> 
    </div></a>
    <a href="https://docs.assetmantle.one/Why_Choose_AssetMantle" target="_blank">
    <div class="card">
@@ -29,7 +29,7 @@ AssetMantle utilizes the interNFT standard which is inspired from decentralized 
           <p class="heading">Salient Features of AssetMantle</p>
          <p>Read what makes AssetMantle stand apart!</p>
       </div>
-      <img src="../assets/images/AssetMantle Logo Square.png" />  
+      <img src="../assets/images/AssetMantle_Logo_Square.png" /> 
    </div>
 </div></a>
 <div class="maincard">
@@ -42,7 +42,7 @@ AssetMantle utilizes the interNFT standard which is inspired from decentralized 
           <p>Coming soon</p>
          <p>Learn more about the revolutionary MantlePlace.</p>
       </div>
-      <img src="../assets/images/AssetMantle Logo Square.png" /> 
+      <img src="../assets/images/AssetMantle_Logo_Square.png" /> 
    </div></a>
     <a href="https://docs.assetmantle.one/MantleBuilder_Overview" target="_blank">
    <div class="card">
@@ -50,7 +50,7 @@ AssetMantle utilizes the interNFT standard which is inspired from decentralized 
            <p class="heading">What is MantleBuilder?</p>
          <p>Learn about the innovative no-code builder.</p>
       </div>
-       <img src="../assets/images/AssetMantle Logo Square.png" />  
+      <img src="../assets/images/AssetMantle_Logo_Square.png" /> 
      
    </div></a>
 </div>
@@ -62,7 +62,7 @@ AssetMantle utilizes the interNFT standard which is inspired from decentralized 
            <p>Coming soon</p>
          <p>Deep dive into AssetMantle native token.</p>
       </div>
-      <img src="../assets/images/AssetMantle Logo Square.png" />  
+      <img src="../assets/images/AssetMantle_Logo_Square.png" /> 
      
    </div></a>
    <a href="#" target="_blank">
@@ -72,7 +72,7 @@ AssetMantle utilizes the interNFT standard which is inspired from decentralized 
           <p>Coming soon</p>
          <p>In case you have any questions!</p>
       </div>
-      <img src="../assets/images/AssetMantle Logo Square.png" />  
+      <img src="../assets/images/AssetMantle_Logo_Square.png" /> 
    </div></a>
 </div>
 
