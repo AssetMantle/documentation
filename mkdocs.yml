@@ -150,6 +150,9 @@ nav:
     - Complete Customization: Why_Choose_AssetMantle#complete-customization
   - MantleDrop ($MNTL Airdrop):
     - StakeDrop: "MantleDrop_Overview#stakedrop"
+    - Osmosis LP Airdrop: "MantleDrop_Overview#osmosis-liquidity-providers-airdrop"
+    - OpenSea Users Airdrop: "MantleDrop_Overview#opensea-users-airdrop"
+    - Tokens for Genesis Creators: "MantleDrop_Overview#mntl-reserved-for-mantle-genesis-creators"
   - MantleBuilder Overview:
     - What is MantleBuilder?: "MantleBuilder_Overview#what-is-mantlebuilder"
     - Features of MantleBuilder: "MantleBuilder_Overview#features-of-mantlebuilder"
