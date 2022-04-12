@@ -22,24 +22,24 @@ The Mantle team seeks to accelerate the mass adoption of blockchain by making we
 
 ## Salient Features of AssetMantle
 
-### **Minting**
+### Minting
 
 Minting allows a verified creator to simply create/import their assets, work on them & convert them into tradable NFTs which can then be exported to the marketplace
 
-### **Exchange (Bid, Buy, Sell)**
+### Exchange (Bid, Buy, Sell)
 
 - Using an order-book & signature-based matching
 - Multiple asset types supported: Images, Audio, Video, AR/VR, 3D, etc.
 - Completely decentralized Web3 based application with no involvement of off-chain or centralized databases
 - Built on top of the native InterNFT Standards built by Persistence and the community.
 
-### **Ledger Hardware Support**
+### Ledger Hardware Support
 
 Ledger uses state-of-the-art technology to secure your assets and deliver a seamless experience to buy/sell crypto assets. With the recent hacks in wallet-based implementations, it is very important to secure the NFT assets.
 
 AssetMantle now supports the Ledger hardware wallet to store all your NFTs securely and avoid phishing attacks into your wallets.
 
-### **Build Your Very Own Storefront/Marketplace**
+### Build Your Very Own Storefront/Marketplace
 
 MantleBuilder will allow creators to create their own storefronts or NFT marketplaces. This marketplace will further allow users to upload, publish, and sell their minted NFTs.
 
@@ -47,7 +47,7 @@ The storefront will use the underlying protocol level logic to govern the demand
 
 Additional benefits of this marketplace are that economic principles of supply and demand become automatically integrated into the system, allowing the community to determine the fair price of user-generated assets.
 
-### IPFS **Storage Mechanism**
+### IPFS Storage Mechanism
 
 - AssetMantle uses IPFS dedicated gateway to store the asset along with the associated metadata.
 - AssetMantle verifies the assets using IPFS to prove the authenticity of the minted NFTs.
@@ -94,10 +94,42 @@ Users can mint and trade a wide range of supported assets, including images, aud
 
 The Mantle token ($MNTL) will empower users with voting rights to take part in decisions or updates that affect the marketplace.
 
-### Inter-chain NFTs with Native Implementation
+### Interchain NFTs with Native Implementation
 
 AssetMantle is aimed at encouraging the mass adoption of cross-chain NFTs with native implementation. The NFT module is implemented at the native application logic level and not at the smart contract level.
 
 Leveraging the chain’s native interoperability protocol, artists and creators can easily transfer NFTs between chains rather than using permissioned smart contract bridges.
+
+### Wallet Agnosticism
+
+The NFT wallet module on AssetMantle is wallet agnostic, such that one can own multiple NFT asset types in one wallet. This also means NFTs issued on multiple chains can be owned through one chain-agnostic wallet.
+
+### Customizable NFT Metadata
+
+AssetMantle allows creators and developers to customize the metadata of their assets. Properties of NFTs can be mutated (with support for up to 22 metadata fields), shared, and submitted even after they have been minted and verified. An NFT Metadata can optionally be revealed on-chain. In general, it is hashed on-chain for privacy preservation.
+
+### Fast Finality
+
+AssetMantle is built on Tendermint Core which supports higher throughput for NFT transactions. Tendermint Core uses the Delegated Proof-of-Stake (DPoS) consensus mechanism to create blocks and validate transactions.
+
+### Fractionalized Asset Ownership
+
+AssetMantle supports fractional ownership of assets, whereby several parties have existing rights to a valuable NFT piece (could be an artwork, image, or a music piece) just like the shares of a public limited company. Ownership rights are calculated in percentage and can be sold among the parties involved. Royalties on secondary sales are also divided (for collaborating artists) among the fractional owners of an NFT with variable splits and to the extent of their ownership rights.
+
+### Singular Representation of NFTs
+
+NFT Id is a hash of immutable content of NFT. The framework follows the DID standards, and hence no two NFTs can have the same immutable content & Id.
+
+### Reduced Load on Interchain Protocol 
+
+The two NFT modules (NFT interface and NFT wallet) are self-sufficient which reduces the load on the interchain protocol. The modules do not need to interact with each other to sync each transaction state. Only a few transactions require communication or interoperability between the two modules. These include interchain send and burn transactions. 
+
+### Commoditization
+
+The NFTs on the individual marketplaces on assetMantle are identified by class or classification. As such, transactions involving these NFTs are addressed by class rather than their owners’ direct addresses. This enables NFT commoditization.
+
+### Trusted Minting, Mutation and Burn Execution and Interoperability with Private Chains 
+
+The minting, mutation, and burn logic is implemented natively on the issuing chain and is always handled by the same chain instead of handing over the mutation logic to the recipient chain on NFT transfer to a different chain. This allows for private and privately validated chains to also exchange their NFTs with other chains while ensuring the trust of the execution environment and logic privacy(if required).
 
 ### ...and more!
