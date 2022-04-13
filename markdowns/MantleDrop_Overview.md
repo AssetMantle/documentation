@@ -287,3 +287,27 @@ Other benefits include:
 
 - Grant opportunities governed by the community to top collections/projects willing to launch on AssetMantle
 - Rewards distribution for Genesis mint to whitelisted projects, creators, and collectors
+
+## MantleDrop Vesting Schedule
+
+The following shows the lockup period and the vestign period for Mantle tokens ($MNTL) from the Token Generation Event (TGE).
+
+![AssetMantle Vesting Schedule](../assets/images/mantledrop_vesting_schedule.jpg)
+
+### Liquidity Pools
+
+Mantle tokens are immediately available from the TGE for Osmosis Liquidity Providers.
+
+The claim period for LPs is **60 days from the TGE**.
+
+### StakeDrop
+
+For wallets participating in the StakeDrop campaign, the $MNTL rewards are locked up for 6 months post which they are **linearly vested for another 6 months**.
+
+### Mantle Genesis Creators
+
+Mantle tokens are **immediately available** post the TGE for Mantle Genesis Creators to encourage and support them in their endeavour to create and launch lasting and value-adding NFT prodjects.
+
+### OpenSea
+
+$MNTL would be locked up for 1 month from the TGE following which they will be **linearly vested for 3 months** for OpenSea users.
