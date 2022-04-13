@@ -6,7 +6,6 @@ site_url: https://docs.assetmantle.one/
 
 # Repository
 
-
 # Copyright
 copyright: assetMantle-docs
 
@@ -16,6 +15,7 @@ docs_dir: markdowns
 theme:
   name: material
   custom_dir: resources
+  favicon: ../assets/images/AssetMantle_Logo_Square.png
 
   features:
     - tabs

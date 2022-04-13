@@ -235,7 +235,7 @@ These pools reflect some of the best projects built within the Cosmos ecosystem,
 - C0: Initial claim (30%)
 - C1: Staking (10%)
 - C2: Vote on a governance proposal (10%)
-- C3: Liquidity Pool creation (20%)
+- C3: Provide liquidity to Mantle ($MNTL) pools (20%)
 - C4: Mint an NFT on MantlePlace (30%)
 
 The amount of allocated $MNTL tokens can be calculated as follows:
@@ -254,7 +254,7 @@ $z=1.25*x+y$
 
 $p=(-z/100)$
 
-Further, as a precautionary measure and to encourage a fair and even distribution, the token distribution is capped at a maximum of 750 $MNTL per wallet.
+Further, as a precautionary measure and to encourage a fair and even distribution, the token distribution is **capped at a maximum of 750 $MNTL per wallet**.
 
 ## OpenSea Users Airdrop
 
@@ -264,13 +264,6 @@ To welcome OpenSea users to the Cosmos ecosystem, the Mantle team decided to air
 2. **Eligibility Criteria: Minimum of 1 ETH worth NFTs traded (Buy, Sell)** on OpenSea across verified collections.
 3. **Claim Period: 60 days** from the Token Generation Event(TGE)
 4. **Max Cap: 250 $MNTL**
-
-Any unclaimed airdrops after the 60 day period would go back to the community pool in the DAO. To claim, the user is required need to complete the following tasks within the 60 Day claim period:
-
-- C0: Initial claim (30%)
-- C1: Stake (15%)
-- C2: Vote on a Governance Proposal (15%)
-- C4: MantlePlace Activity: Create a social profile then bid on Mantle verified creators’ NFTs (Post MantlePlace Launch) (40%)
 
 The amount of allocated $MNTL tokens can be calculated as follows:
 
