@@ -1,13 +1,9 @@
-# Welcome
+# Welcome to AssetMantle Docs
+## AssetMantle | Redefining Digital Asset Ownership
 
 <div class="welcome">
    <div>
-      <p>Welcome to AssetMantle docs! </p>
-      <p>AssetMantle is a one-stop NFT framework that empowers and incentivizes creators and their fans to build, innovate, and transact independently, and securely on the blockchain via MantlePlace and MantleBuilder.
-
-It is a creator-centric framework for NFT marketplaces that provides all the elements required to create individual marketplaces. It facilitates the creation (minting) of interoperable NFTs that flow between different blockchains. Further, it also supports NFTs ranging from digital art and collectibles to tokenized tickets.
-
-AssetMantle utilizes the interNFT standard which is inspired from decentralized identity (DID) standards for ownership and provenance of the data. The team believes that NFTs extend beyond art and can potentially change how the ownership of real-world assets like real estate are represented through tokenization.</p>
+      <p>AssetMantle is a multi-tenant NFT marketplace framework that enables creators and collectors to securely mint, own, and trade digital assets on its fast-finality blockchain.</p>
    </div>
  
 </div>

@@ -8,21 +8,25 @@ They help facilitate easy trading among peers and allow individuals to launch th
 
 In other words, NFT marketplaces are online platforms that bridge the gap between buyers and sellers. They function more like an exchange, with people minting and selling NFTs at a set price.
 
-At [AssetMantle](https://assetmantle.one/), the team is dedicated to making NFTs accessible more easily and with greater functionality. The Mantle team is able to achieve this feat of engineering marvel by building on the Cosmos ecosystem and leveraging the flexibility of [interNFT](https://internft.org/) (an NFT metadata standardization).
+At [AssetMantle](https://assetmantle.one/), the team is dedicated to making NFTs accessible more easily and with greater functionality. The Mantle team is able to achieve this feat of engineering marvel by building on the Cosmos ecosystem and leveraging the flexibility of [interNFT](https://internft.org/) (an NFT metadata standard).
 
 ## What is AssetMantle?
 
-The Mantle team is building [AssetMantle](https://assetmantle.one/) as a decentralized infrastructure that would disseminate the global creator economy and empower creators to pursue their passion in the blockchain. Thus enabling incentivization in perpetuity without the need to code in complex blockchain programming languages.
+[AssetMantle](https://www.assetmantle.one) is a multi-tenant NFT marketplace framework that enables creators and collectors to securely mint, own, and trade digital assets on its fast-finality blockchain. 
 
-AssetMantle is a creator-centric framework for NFT marketplaces that provides all the elements required to create individual marketplaces. It facilitates the creation (minting) of interoperable NFTs that flow between different blockchains. Further, it also supports NFTs ranging from digital art, collectibles to tokenized tickets.
+The AssetMantle no-code toolset enables creators to permissionlessly create customized assets and marketplaces. 
 
-With AssetMantle, users can easily create dedicated marketplaces for a wide range of products from specific sellers or groups of sellers.
+Collectors can own the assets minted across these marketplaces and compatible chains in a singular wallet that can be transacted with minimal gas and a lower carbon footprint. 
+
+Built on the interNFT standard, AssetMantle implements an end-to-end stack of open-source modular tools that developers can modify to fit advanced use cases. 
 
 ## Vision of AssetMantle
 
-### Decentralizing Creator Economy
+Build an open-source, community-driven framework for interchain NFTs and metadata standardization by contributing to interNFT standard.
 
-The vision is to build an open-source community-driven framework that also contributes to interNFT metadata standardization and MantleModules for modular, interoperable, composable, and decomposable NFT integration in metaverses,  games, and art.
+## Mission of AssetMantle
+
+Provide a platform that enables a diverse set of NFTs use cases that extend beyond arts and collectibles and can potentially change the representation of rights and ownership of real-world assets like real estate and other commodities.
 
 ## Why Did AssetMantle Choose the Cosmos Ecosystem?
 
