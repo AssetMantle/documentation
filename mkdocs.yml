@@ -155,6 +155,7 @@ nav:
     - OpenSea Users Airdrop: "MantleDrop_Overview#opensea-users-airdrop"
     - Tokens for Genesis Creators: "MantleDrop_Overview#mntl-reserved-for-mantle-genesis-creators"
     - Lockup and Vesting Schedule: "MantleDrop_Overview#mantledrop-vesting-schedule"
+  - MantlePlace Overview: MantlePlace_Overview.md
   - MantleBuilder Overview:
     - What is MantleBuilder?: "MantleBuilder_Overview#what-is-mantlebuilder"
     - Features of MantleBuilder: "MantleBuilder_Overview#features-of-mantlebuilder"

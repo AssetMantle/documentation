@@ -29,13 +29,11 @@
    </div>
 </div></a>
 <div class="maincard">
-   <a href="#" target="_blank">
+   <a href="https://docs.assetmantle.one/MantlePlace_Overview" target="_blank">
    
    <div class="card">
-    <!-- <div class="card-comming-soon">Comming soon</div>  -->
       <div>
           <p class="heading">What is MantlePlace?</p>
-          <p>Coming soon</p>
          <p>Learn more about the revolutionary MantlePlace.</p>
       </div>
       <img src="../assets/images/AssetMantle_Logo_Square.png" /> 
