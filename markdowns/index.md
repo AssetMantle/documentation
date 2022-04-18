@@ -49,11 +49,10 @@
    </div></a>
 </div>
 <div class="maincard">
-<a href="#" target="_blank">
+<a href="https://docs.assetmantle.one/Mantle_Tokenomics" target="_blank">
    <div class="card">
       <div>
            <p class="heading">$MNTL Tokenomics</p>
-           <p>Coming soon</p>
          <p>Deep dive into AssetMantle native token.</p>
       </div>
       <img src="../assets/images/AssetMantle_Logo_Square.png" /> 

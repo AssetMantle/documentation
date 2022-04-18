@@ -1,5 +1,5 @@
 # Project information
-site_name: "assetMantle: Documents"
+site_name: "AssetMantle: Documents"
 site_description: NFT marketplaces that provides all the elements required to create individual marketplaces
 site_author:
 site_url: https://docs.assetmantle.one/
@@ -7,7 +7,7 @@ site_url: https://docs.assetmantle.one/
 # Repository
 
 # Copyright
-copyright: assetMantle-docs
+copyright: AssetMantle-docs
 
 docs_dir: markdowns
 
