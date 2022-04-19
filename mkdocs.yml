@@ -137,6 +137,7 @@ nav:
     - Vision of AssetMantle: "About_AssetMantle#vision-of-assetmantle"
     - Why Cosmos Ecosystem?: "About_AssetMantle#why-did-assetmantle-choose-the-cosmos-ecosystem"
     - Inception of AssetMantle: "About_AssetMantle#inception-of-assetmantle"
+  - AssetMantle Whitepaper: "AssetMantle_Whitepaper.md"
   - Overview:
     - Challenges of Existing Marketplaces: "Overview#challenges-of-existing-marketplaces"
     - Product Offerings: "Overview#product-offerings"
@@ -159,7 +160,6 @@ nav:
   - MantleBuilder Overview:
     - What is MantleBuilder?: "MantleBuilder_Overview#what-is-mantlebuilder"
     - Features of MantleBuilder: "MantleBuilder_Overview#features-of-mantlebuilder"
-  - AssetMantle Whitepaper: "AssetMantle_Whitepaper.md"
   - Quick Setup:
     - Overview: "Quick_Setup#overview"
     - Prerequisites: "Quick_Setup#prerequisites"
