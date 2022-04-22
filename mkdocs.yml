@@ -66,21 +66,27 @@ extra:
 #To add icon to side navigation: name is exact navigation item icon is icon path.
   nav_links:
     - name: About
-      icon: ../assets/images/home.svg
+      icon: ../assets/images/about_new.png
+    - name: "AssetMantle Whitepaper"
+      icon: ../assets/images/whitepaper_new.png
     - name: Overview
-      icon: ../assets/images/user_guid.svg
+      icon: ../assets/images/overview_new.png
     - name: Terminology
-      icon: ../assets/images/terminology.svg
+      icon: ../assets/images/terminology_new.png
     - name: "Why Choose AssetMantle?"
-      icon: ../assets/images/faq.svg
+      icon: ../assets/images/why_assetmantle_new.png
+    - name: "$MNTL Tokenomics"
+      icon: ../assets/images/tokenomics_new.png
     - name: "MantleDrop ($MNTL Airdrop)"
-      icon: ../assets/images/overview.svg
+      icon: ../assets/images/overview_new.png
     - name: "MantleBuilder Overview"
-      icon: ../assets/images/features.svg
+      icon: ../assets/images/mantlebuilder_new.png
+    - name: "MantlePlace Overview"
+      icon: ../assets/images/mantleplace_new.png
     - name: Quick Setup
-      icon: ../assets/images/setup.svg
+      icon: ../assets/images/setup_new.png
     - name: Contact AssetMantle
-      icon: ../assets/images/intro.svg
+      icon: ../assets/images/contact_new.png
 
 # extra:
 #   analytics:
