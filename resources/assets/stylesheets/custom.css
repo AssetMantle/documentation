@@ -347,3 +347,15 @@ margin: 0;
 .custom-nav-icon img{
     padding-right: 10px;
 }
+.md-nav__link{
+    display: flex;
+    justify-content: space-between;
+}
+.md-nav__link .custom-nav-icon{
+    display: flex;
+    align-items: center;
+}
+.md-nav__link img{
+    width: 25px;
+    height: 25px;
+}
