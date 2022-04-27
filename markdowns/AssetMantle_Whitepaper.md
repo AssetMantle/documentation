@@ -6,7 +6,7 @@ AssetMantle
 
 Non-fungible tokens (NFTs) have experienced massive adoption within music, gaming, collectibles, physical arts, and beyond. These NFTs act as a certificate of ownership and thus requires a standardized representation of these tokenized assets.
 
-The majority of the NFTs related applications depend on centrally administered databases with fragmented capture of information. Being centrally operated the applications allow for high TPSs when the operations are internal to the system but become painfully slow when reconciling transactions with other applications. Considerable efforts have to be respent on KCL/AML at each onboarding of the same individual due to lack of interoperability. The lack of transparency into the data of these applications also allows for manipulation and discourages auditability.
+The majority of the NFT-related applications depend on centrally administered databases with fragmented capture of information. Being centrally operated the applications allow for high TPSs when the operations are internal to the system but become painfully slow when reconciling transactions with other applications. Considerable efforts have to be respent on KCL/AML at each onboarding of the same individual due to lack of interoperability. The lack of transparency into the data of these applications also allows for manipulation and discourages auditability.
 
 AssetMantle solves these problems of traditional finances by bringing auditability and interoperability between applications through decentralization solutions. It makes it easy to define open finance applications through its toolkit:
 
@@ -29,21 +29,31 @@ Table of Contents
 [TOC]
 
 ## 1. Overview
-AssetMantle is an Interoperability Middleware for building a decentralized infrastructure for but not limited to the creator economy. The AssetMantle platform is a set of standardized tools and specifications that can be used to model Exchanges and Marketplaces by tokenizing, trading, and financing against ‘real world’ financial assets (such as Invoices, Receivables purchase agreements, Bills of Lading/Commodities, Letters of Credit, Solar Credits, etc.). Since all the Exchanges are built using the same set of AssetMantle modules and specs, there is native interoperability between all the exchanges while maintaining sovereignty. The Decentralized and Open Finance features of AssetMantle applications are leveraged for more efficient capital allocation in a trust minimized, borderless and 24/7 manner.
+AssetMantle is an interoperability middleware for building a decentralized infrastructure for, but not limited to, the creator economy. The AssetMantle platform is a set of standardized tools and specifications that can be used to model exchanges and marketplaces by tokenizing, trading, and financing against ‘real-world’ financial assets (such as invoices, receivables purchase agreements, bills of lading/commodities, letters of credit, solar credits, etc.). Since all the exchanges are built using the same set of AssetMantle modules and specs, there is native interoperability between all the exchanges while maintaining sovereignty. The decentralized and open finance features of AssetMantle applications are leveraged for more efficient capital allocation in a trust-minimized, borderless and 24/7 manner.
 
-This new paradigm of novel use-cases can be facilitated within the AssetMantle Ecosystem using its continuously evolving toolset, which currently includes modules like Reputation, Contract, Escrow, Access Control, Hierarchy, NFT, and RFT.
+This new paradigm of novel use-cases can be facilitated within the AssetMantle Ecosystem using its continuously evolving toolset, which currently includes modules like reputation, contract, escrow, access control, hierarchy, NFT, and RFT.
 
 Features of the AssetMantle ecosystem:
-* Native interoperability between all applications participating sovereignly in the ecosystem.
-* The applications are also interoperable across different protocols/platforms.
-* Singular representation of data, i.e. each object is allowed to exist only once in the whole ecosystem.
-* Flexibility in the level of transaction validation privacy level, covering the whole spectrum from open public validation to permissioned private validation.
-* Privacy-preserving transaction validation allows interoperability between publicly and privately validated dApps.
+
+* Native interoperability between all applications participating sovereignly in the ecosystem
+
+* The applications are also interoperable across different protocols/platforms
+
+* Singular representation of data, i.e. each object is allowed to exist only once in the whole ecosystem
+
+* Flexibility in the level of transaction validation privacy level, covering the whole spectrum from open public validation to permissioned private validation
+
+* Privacy-preserving transaction validation allows interoperability between publicly and privately validated dApps
+
 * Interchain NFT Transfers
-* Multi-Wallet Support / Wallet Agnosticism
+
+* Multi-Wallet Support/Wallet Agnosticism
+
 * Customize NFT Metadata
-* Reduced Load on Interchain Protocol 
-* Privacy Protection 
+
+* Reduced Load on Interchain Protocol
+
+* Privacy Protection
 
 
 
