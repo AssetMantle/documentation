@@ -347,7 +347,7 @@ margin: 0;
 .custom-nav-icon img{
     padding-right: 10px;
 }
-.md-nav__link{
+.custom-nav-link .md-nav__link{
     display: flex;
     justify-content: space-between;
 }
@@ -358,4 +358,8 @@ margin: 0;
 .md-nav__link img{
     width: 25px;
     height: 25px;
+}
+.md-nav__list .md-nav__item a{
+    display: flex;
+    align-items: center;
 }
