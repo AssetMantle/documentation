@@ -174,9 +174,6 @@ nav:
     - References Links: "Quick_Setup#references-links"
     - FAQs/Common Issues: "Quick_Setup#faqscommon-issues"
   - Contact AssetMantle: Contact_AssetMantle.md
-  - MantlePlace Guides:
-    - Sign-up Guide: MantlePlace_Sign-Up_Guide.md
-    - Create Collection Guide: MantlePlace_Create_Collection_Guide.md
 
 extra_css:
   - assets/stylesheets/custom.css
