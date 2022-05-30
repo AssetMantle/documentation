@@ -174,6 +174,12 @@ nav:
     - References Links: "Quick_Setup#references-links"
     - FAQs/Common Issues: "Quick_Setup#faqscommon-issues"
   - Contact AssetMantle: Contact_AssetMantle.md
+  - Assets and Metadata Upload:
+    - File Structuring: Assets_and_Metadata_File_Structuring.md
+    - Using NFT.Storage (without Script): Uploading_NFT_Collection_Using_NFT_Storage_(Without_Script).md
+    - Using NFT.Storage (with Script): Uploading_NFT_Collection_Using_NFT_Storage_(With_Script).md
+    - Using Web3.Storage (without Script): Uploading_Web3_Collection_Using_NFT_Storage_(Without_Script).md
+    - Using Web3.Storage (with Script): Uploading_Web3_Collection_Using_NFT_Storage_(With_Script).md
 
 extra_css:
   - assets/stylesheets/custom.css
