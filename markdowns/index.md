@@ -6,7 +6,7 @@
       <p>AssetMantle is a multi-tenant NFT marketplace framework that enables creators and collectors to securely mint, own, and trade digital assets on its fast-finality blockchain.</p>
    </div>
 
-<iframe width="784" height="439.6" src="https://www.youtube.com/embed/vvKVCbxWl1g" title="YouTube video player" fra  border="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="784" height="439.6" src="https://www.youtube.com/embed/vvKVCbxWl1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
 </div>
 <div class="maincard">
