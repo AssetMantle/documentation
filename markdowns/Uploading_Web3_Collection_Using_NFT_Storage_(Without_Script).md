@@ -1,4 +1,4 @@
-# Uploading NFT Collection Using Web3.Storage (Without Script)
+# Uploading NFT Collection Using Web3.Storage (UI)
 
 Web3.Storage is an IPFS node operator that can be used to pin data in IPFS.
 
@@ -48,7 +48,7 @@ The creator can also perform actions like deleting the file or copying the IPFS 
 
 Pack the metadata files into a `.CAR` file or upload each of them manually.
 
-### 1. Structure the Metadata
+### 1. Structuring of the Metadata
 
 ```jsx
 Note: Steps are same as NFT.Storage.upload
