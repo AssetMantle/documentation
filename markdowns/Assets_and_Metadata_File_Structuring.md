@@ -121,6 +121,6 @@ TakerID
 
 Once the assets and metadata files are ready, the next step is to upload the same at some storage mechanism. It is recommended to use a decentralized storage solution such as IPFS.
 
-This documentation highlights four pathways of uploading NFTs and their metadata to IPFS; via NFT.Storage (with and without script) and Web3.Storage (with and without script).
+This documentation highlights four pathways of uploading NFTs and their metadata to IPFS; via NFT.Storage (with UI and script) and Web3.Storage (with UI and script).
 
 For NFT collections with a large number of assets, using a script is ideal.

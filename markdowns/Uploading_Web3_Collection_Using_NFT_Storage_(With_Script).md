@@ -1,4 +1,4 @@
-# Uploading NFT Collection Using Web3.Storage (With Script)
+# Uploading NFT Collection Using Web3.Storage (Script)
 
 This guide is best suited for creators who wish to automate the process of uploading their NFT assets and metadata using NFT.Storage.
 
@@ -68,6 +68,14 @@ yarn install
 Now, use the API that was created in step 1.
 
 Paste that APIKey in config.js file (web3StorageAPIKey) there.
+
+
+## 6. Run the Script
+
+```jsx
+yarn web3-storage-upload
+```
+
 
 ## Summing Up
 
