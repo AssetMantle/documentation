@@ -162,6 +162,13 @@ nav:
     - OpenSea Users Airdrop: "MantleDrop_Overview#opensea-users-airdrop"
     - Tokens for Genesis Creators: "MantleDrop_Overview#mntl-reserved-for-mantle-genesis-creators"
     - Lockup and Vesting Schedule: "MantleDrop_Overview#mantledrop-vesting-schedule"
+  - Creators Docs:
+    - Assets and Metadata Upload:
+      - File Structuring: Assets_and_Metadata_File_Structuring.md
+      - Using NFT.Storage (without Script): Uploading_NFT_Collection_Using_NFT_Storage_(Without_Script).md
+      - Using NFT.Storage (with Script): Uploading_NFT_Collection_Using_NFT_Storage_(With_Script).md
+      - Using Web3.Storage (without Script): Uploading_Web3_Collection_Using_NFT_Storage_(Without_Script).md
+      - Using Web3.Storage (with Script): Uploading_Web3_Collection_Using_NFT_Storage_(With_Script).md
   - MantlePlace Overview: MantlePlace_Overview.md
   - MantleBuilder Overview:
     - What is MantleBuilder?: "MantleBuilder_Overview#what-is-mantlebuilder"
@@ -174,6 +181,7 @@ nav:
     - References Links: "Quick_Setup#references-links"
     - FAQs/Common Issues: "Quick_Setup#faqscommon-issues"
   - Contact AssetMantle: Contact_AssetMantle.md
+  
 
 extra_css:
   - assets/stylesheets/custom.css
