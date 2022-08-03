@@ -136,6 +136,7 @@ The functionalities of a chain are defined by the `node application` being run b
 * Sentry node: A sync node that serves as sentries or bridge nodes from militarized zone to the public network. These nodes connect to all the peers of the chain and bridge them to the validator nodes for consensus participation and validation activities.
 
 * Light Client: A verifier node that does not sync blocks or their history but can query the current state and verify block headers and transaction proofs. The light client is meant for interacting with the chain and for querying or sending transactions to it without participating in consensus or block validation activities.
+
 ```ditaa {cmd=true args=["-S"]}
 +-------------------------------------------------------------------+
 |                                                                   |
@@ -194,6 +195,7 @@ The functionalities of a chain are defined by the `node application` being run b
 |  +-------------------------------------------------------------+  |
 +-------------------------------------------------------------------+                                   
 ```
+
 **Fig 4.1** Schematic representation of a Node on AssetMantle Platform
 
 #### 4.1.2 State Machine
