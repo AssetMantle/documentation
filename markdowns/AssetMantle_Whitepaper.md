@@ -303,6 +303,7 @@ Every block that is added to a chain produces block rewards. This reward serves 
 Every transaction that is added to a block needs to be paid for by the originator of the transaction as transaction fees. The transaction fees serve the purpose of prioritization of transactions and setting limits on the work that the chain needs to perform to validate one transaction. The transaction fees are calculated as a function of the computation operations required by a node to process the transaction, plus some extra offered to prioritize the transaction(bribe to block proposer?). The fees may or may not have direct economic value but may rather be a function of multiple factors that are defined by the business application logic of the chain.
 
 ### 4.3. Platform
+
 ```ditaa {cmd=true args=["-S"]}
 +-----------------------------------------------------------------+
 |                                                                 |
@@ -339,6 +340,7 @@ Every transaction that is added to a block needs to be paid for by the originato
 |                     +----------------------------------------+  |
 +-----------------------------------------------------------------+
 ```
+
 **Fig 4.3** Schematic representation of the AssetMantle Platform
 
 #### 4.3.1. Core
