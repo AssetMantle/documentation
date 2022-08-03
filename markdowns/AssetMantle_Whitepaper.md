@@ -227,7 +227,9 @@ A generic interface that the application layer has to implement to interact with
 Tendermint core and ABCI together form the Tendermint state replication machine with the four connections types exposed either over a network as RPC or can be compiled together with the application into one binary if the application is written in golang. The application may be written in any language and maintained and run as a separate binary along with the tendermint binary interoperating through RPCs over the network.
 
 ### 4.2. Chain
-A chain is an asymmetric component composing the AssetMantle Platform distributed system. A chain has many nodes/validators which are tasked with validating the node application logic assigned to the chain. Each chain has different security, fault tolerance, trustlessness, and decentralization requirement based on the application it runs. The AssetMantle Platform allows the chains to have a different number of validators, types of consensus mechanisms, governance structures, and validator incentivization mechanisms based on the chain requirements.
+A chain is an asymmetric component composing the AssetMantle Platform distributed system. A chain has many nodes/validators which are tasked with validating the node application logic assigned to the chain. Each chain has different security, fault tolerance, trustlessness, and decentralization requirement based on the application it runs. The AssetMantle Platform allows the chains to have a different number of validators, types of consensus 
+mechanisms, governance structures, and validator incentivization mechanisms based on the chain requirements.
+
 ```ditaa {cmd=true args=["-S"]}
 +-----------------------------------------------------------------------+
 |                                                                       |
@@ -254,6 +256,7 @@ A chain is an asymmetric component composing the AssetMantle Platform distribute
 |  +-----------------------------------------------------------------+  |
 +-----------------------------------------------------------------------+
 ```
+
 **Fig 4.2** Schematic representation of a Chain on the AssetMantle Platform
 
 #### 4.2.1. Validators
