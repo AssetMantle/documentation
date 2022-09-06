@@ -45,11 +45,9 @@ theme:
 plugins:
   - macros
   - search:
-        indexing: 'full'
+      indexing: "full"
   - minify:
       minify_html: true
-
-
 
 # Customization
 extra:
@@ -63,7 +61,7 @@ extra:
     - icon: fontawesome/brands/medium
       link: https://blog.assetmantle.one/
 
-#To add icon to side navigation: name is exact navigation item icon is icon path.
+  #To add icon to side navigation: name is exact navigation item icon is icon path.
   nav_links:
     - name: About
       icon: ../assets/images/about_new.svg
@@ -138,50 +136,51 @@ markdown_extensions:
 nav:
   - Welcome to AssetMantle: index.md
   - About:
-    - Introduction: "About_AssetMantle#Introduction"
-    - What is AssetMantle?: "About_AssetMantle#what-is-assetmantle"
-    - Vision of AssetMantle: "About_AssetMantle#vision-of-assetmantle"
-    - Why Cosmos Ecosystem?: "About_AssetMantle#why-did-assetmantle-choose-the-cosmos-ecosystem"
-    - Inception of AssetMantle: "About_AssetMantle#inception-of-assetmantle"
+      - Introduction: "About_AssetMantle#Introduction"
+      - What is AssetMantle?: "About_AssetMantle#what-is-assetmantle"
+      - Vision of AssetMantle: "About_AssetMantle#vision-of-assetmantle"
+      - Why Cosmos Ecosystem?: "About_AssetMantle#why-did-assetmantle-choose-the-cosmos-ecosystem"
+      - Inception of AssetMantle: "About_AssetMantle#inception-of-assetmantle"
   - AssetMantle Whitepaper: "AssetMantle_Whitepaper.md"
   - Overview:
-    - Challenges of Existing Marketplaces: "Overview#challenges-of-existing-marketplaces"
-    - Product Offerings: "Overview#product-offerings"
+      - Challenges of Existing Marketplaces: "Overview#challenges-of-existing-marketplaces"
+      - Product Offerings: "Overview#product-offerings"
   - Terminology: Terminology.md
   - Why Choose AssetMantle?:
-    - Salient Features Of AssetMantle: Why_Choose_AssetMantle#salient-features-of-assetmantle
-    - Multiple Payment Modes: Why_Choose_AssetMantle#multiple-payment-modes
-    - Negligible Minting Fees: Why_Choose_AssetMantle#negligible-minting-fees
-    - Multi Chain Access: Why_Choose_AssetMantle#multi-chain-access
-    - Negligible Minting Fees: Why_Choose_AssetMantle#negligible-minting-fees
-    - Complete Customization: Why_Choose_AssetMantle#complete-customization
+      - Salient Features Of AssetMantle: Why_Choose_AssetMantle#salient-features-of-assetmantle
+      - Multiple Payment Modes: Why_Choose_AssetMantle#multiple-payment-modes
+      - Negligible Minting Fees: Why_Choose_AssetMantle#negligible-minting-fees
+      - Multi Chain Access: Why_Choose_AssetMantle#multi-chain-access
+      - Negligible Minting Fees: Why_Choose_AssetMantle#negligible-minting-fees
+      - Complete Customization: Why_Choose_AssetMantle#complete-customization
   - $MNTL Tokenomics: Mantle_Tokenomics.md
   - MantleDrop ($MNTL Airdrop):
-    - StakeDrop: "MantleDrop_Overview#stakedrop"
-    - Osmosis LP Airdrop: "MantleDrop_Overview#osmosis-liquidity-providers-airdrop"
-    - OpenSea Users Airdrop: "MantleDrop_Overview#opensea-users-airdrop"
-    - Tokens for Genesis Creators: "MantleDrop_Overview#mntl-reserved-for-mantle-genesis-creators"
-    - Lockup and Vesting Schedule: "MantleDrop_Overview#mantledrop-vesting-schedule"
+      - StakeDrop: "MantleDrop_Overview#stakedrop"
+      - Osmosis LP Airdrop: "MantleDrop_Overview#osmosis-liquidity-providers-airdrop"
+      - OpenSea Users Airdrop: "MantleDrop_Overview#opensea-users-airdrop"
+      - Tokens for Genesis Creators: "MantleDrop_Overview#mntl-reserved-for-mantle-genesis-creators"
+      - Lockup and Vesting Schedule: "MantleDrop_Overview#mantledrop-vesting-schedule"
   - Creators Docs:
-    - Assets and Metadata Upload:
-      - File Structuring: Assets_and_Metadata_File_Structuring.md
-      - Using NFT.Storage (without Script): Uploading_NFT_Collection_Using_NFT_Storage_(Without_Script).md
-      - Using NFT.Storage (with Script): Uploading_NFT_Collection_Using_NFT_Storage_(With_Script).md
-      - Using Web3.Storage (without Script): Uploading_Web3_Collection_Using_NFT_Storage_(Without_Script).md
-      - Using Web3.Storage (with Script): Uploading_Web3_Collection_Using_NFT_Storage_(With_Script).md
+      - Assets and Metadata Upload:
+          - File Structuring: Assets_and_Metadata_File_Structuring.md
+          - Using NFT.Storage (without Script): Uploading_NFT_Collection_Using_NFT_Storage_(Without_Script).md
+          - Using NFT.Storage (with Script): Uploading_NFT_Collection_Using_NFT_Storage_(With_Script).md
+          - Using Web3.Storage (without Script): Uploading_Web3_Collection_Using_NFT_Storage_(Without_Script).md
+          - Using Web3.Storage (with Script): Uploading_Web3_Collection_Using_NFT_Storage_(With_Script).md
   - MantlePlace Overview: MantlePlace_Overview.md
   - MantleBuilder Overview:
-    - What is MantleBuilder?: "MantleBuilder_Overview#what-is-mantlebuilder"
-    - Features of MantleBuilder: "MantleBuilder_Overview#features-of-mantlebuilder"
+      - What is MantleBuilder?: "MantleBuilder_Overview#what-is-mantlebuilder"
+      - Features of MantleBuilder: "MantleBuilder_Overview#features-of-mantlebuilder"
   - Quick Setup:
-    - Overview: "Quick_Setup#overview"
-    - Prerequisites: "Quick_Setup#prerequisites"
-    - Steps to run AssetMantle: "Quick_Setup#steps-to-run-assetmantle"
-    - Understanding .script structure: "Quick_Setup#understanding-script-structure"
-    - References Links: "Quick_Setup#references-links"
-    - FAQs/Common Issues: "Quick_Setup#faqscommon-issues"
+      - Overview: "Quick_Setup#overview"
+      - Prerequisites: "Quick_Setup#prerequisites"
+      - Steps to run AssetMantle: "Quick_Setup#steps-to-run-assetmantle"
+      - Understanding .script structure: "Quick_Setup#understanding-script-structure"
+      - References Links: "Quick_Setup#references-links"
+      - FAQs/Common Issues: "Quick_Setup#faqscommon-issues"
+  - Resources:
+      - Mediakit: MediaKit.md
   - Contact AssetMantle: Contact_AssetMantle.md
-  
 
 extra_css:
   - assets/stylesheets/custom.css
