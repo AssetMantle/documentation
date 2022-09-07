@@ -85,6 +85,9 @@ extra:
       icon: ../assets/images/setup_new.svg
     - name: Contact AssetMantle
       icon: ../assets/images/contact_new.svg
+    - name: Resources
+      icon: ../assets/images/mantleplace_new.svg
+      
 
 # extra:
 #   analytics:
