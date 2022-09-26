@@ -25,13 +25,13 @@ These are official AssetMantle resources that you can include on your marketing 
          <div class="links"><a href="../assets/images/Mediakit/png/Horizontal_Dark.png">PNG</a>&nbsp;<a href="../assets/images/Mediakit/svg/AM_logo_dark.svg">SVG</a></div>
    </div>
    <div class="media-card">
-      <div class="logomark dark-background"><img src="../assets/images/Mediakit/png/AM_Logo.png" /></div>
-         <p>Light</p>
-         <div class="links"><a href="../assets/images/Mediakit/png/AM_Logo.png">PNG</a>&nbsp;<a href="../assets/images/Mediakit/svg/AM_LogoMark_Light.svg">SVG</a></div>
+      <div class="logomark dark-background"><img src="../assets/images/Mediakit/png/AM_Round.png" /></div>
+         <p>$MNTL LogoMark</p>
+         <div class="links"><a href="../assets/images/Mediakit/png/AM_Round.png">PNG</a>&nbsp;<a href="../assets/images/Mediakit/svg/AM_Round.svg">SVG</a></div>
    </div>
    <div class="media-card">
        <div class="logomark dark-background">  <img src="../assets/images/Mediakit/png/AM_Logo.png" /> </div>
-         <p>Dark</p>
+         <p>AssetMantle LogoMark</p>
          <div class="links"><a href="../assets/images/Mediakit/png/AM_Logo.png">PNG</a>&nbsp;<a href="../assets/images/Mediakit/svg/AM_LogoMark_Dark.svg">SVG</a></div>
    </div>
 </div>
