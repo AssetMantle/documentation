@@ -83,8 +83,8 @@ These are official AssetMantle resources that you can include on your marketing 
 
 <div class="maincard">
    <div class="media-card">
-  <div  class="dark-background"> <img src="../assets/images/Mediakit/png/MantleLabs_Logotype_Light.png" /> </div>         <p>MantleLabs Light </p>
-         <div class="links"><a href="../assets/images/Mediakit/png/MantleLabs_Logotype_Light.png">PNG</a>&nbsp;<a href="../assets/images/Mediakit/svg/MantleLabs_Logotype_Light.svg">SVG</a>
+  <div  class="dark-background"> <img src="../assets/images/Mediakit/png/MantleLabs_Logotype_light.png" /> </div>         <p>MantleLabs Light </p>
+         <div class="links"><a href="../assets/images/Mediakit/png/MantleLabs_Logotype_light.png">PNG</a>&nbsp;<a href="../assets/images/Mediakit/svg/MantleLabs_Logotype_Light.svg">SVG</a>
          </div>
    </div>
    <div class="media-card">
