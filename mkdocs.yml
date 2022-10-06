@@ -164,6 +164,8 @@ nav:
       - Tokens for Genesis Creators: "MantleDrop_Overview#mntl-reserved-for-mantle-genesis-creators"
       - Lockup and Vesting Schedule: "MantleDrop_Overview#mantledrop-vesting-schedule"
   - Creators Docs:
+      - Terminologies and API Definition List:
+          - Terminologies: Creators_doc_Terms_APIList#key-terminologies
       - Assets and Metadata Upload:
           - File Structuring: Assets_and_Metadata_File_Structuring.md
           - Using NFT.Storage (without Script): Uploading_NFT_Collection_Using_NFT_Storage_(Without_Script).md
