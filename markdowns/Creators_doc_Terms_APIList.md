@@ -2,9 +2,9 @@
 
 ## Key Terminologies
 
-* **Bonding Tokens** - The assets on the AssetMantle chain can be created in a permissionless environment. The nominal gas fees for on-chain transactions might create an attack vector to possibly unnecessarily mint transactions/spam the assets or related transactions on-chain. One such mechanism is to tackle the bonding fees for the purchases. Bonding is the process of locking the tokens for a certain period of time. The bonding fees per asset would be **directly proportional to the number of on-chain metadata properties**.
+* **Bonding Tokens** - The assets on the AssetMantle chain can be created in a permissionless environment. The nominal gas fees for on-chain transactions might create an attack vector to possibly unnecessarily mint transactions/spam the assets or related transactions on-chain. One such mechanism is to tackle the bonding fees for the purchases. Bonding is the process of locking the tokens till they are at the end of their lifecycle and burnt. The bonding fees per asset would be **directly proportional to the number of on-chain metadata properties**.
 
-* **Burn** - An NFT being stored on-chain can't be 'deleted', however it can be 'burned'. Due to the immutability nature of blockchain, the asset, once minted, will exist on-chain forever. Thus, the Burn mechanism enables you to burn an NFT that can be sent to an inaccessible address that is not accessible by anyone as it is removed from circulation. Utilizing the MantleModules, creators can also set up the burn block height as the parameter, which enables them to burn an asset once the particular height is reached. You can find more information about the usage of the same [here](#insburnassetburnins) 
+* **Burn** - An NFT being stored on-chain can't be 'deleted', however it can be 'burned'. Due to the immutability nature of blockchain, the asset, once minted, will exist forever in transaction history. Thus, the Burn mechanism enables you to burn an NFT and will be deleted from the chain state. Utilizing the MantleModules, creators can also set up the burn block height as the parameter, which enables them to burn an asset once the particular height is reached. You can find more information about the usage of the same [here](#insburnassetburnins) 
 
 ## Types of NFTs and advanced capabilities using MantleModules
 
@@ -37,7 +37,7 @@ The following API lists provides an high-level overview about the transactions p
 <p> APIs pertaining to manipulating the 'identity', a DID based entity used to represent identity of user. </p>
 
 #### <ins>defineIdentity.define</ins>
-<p>used to define an identity entity. Defines a message and initiates the transaction. </p>
+<p>used to define an identity entity. Defines a classification(schema) of type identity and initiates the transaction. </p>
 <p><strong>Function Signature</strong></p>
 
 `define: (address: string, chain_id: string, mnemonic: string, fromID: string, mutableTraits: string, immutableTraits: any, mutableMetaTraits: any, immutableMetaTraits: any, feesAmount: any, feesToken: any, gas: any, mode: any, memo: string) => Promise<any>;`
@@ -92,7 +92,7 @@ The following API lists provides an high-level overview about the transactions p
 
 
 #### <ins>provisionIdentity.provision</ins>
-<p>used to create a provision address which is used to control / operate an identity. a nub ID, which is the simplest but complete and valid unit of identification. Defines a message and initiates the transaction. </p>
+<p>used to add a address which is used to control / operate an identity. a nub ID, which is the simplest but complete and valid unit of identification. Defines a message and initiates the transaction. </p>
 <p><strong>Function Signature</strong></p>
 
 `provision: (address: string, chain_id: string, mnemonic: any, identityID: any, to: any, feesAmount: any, feesToken: any, gas: any, mode: any, memo: string) => Promise<any>;`
@@ -248,7 +248,7 @@ The following API lists provides an high-level overview about the transactions p
 <p>---------------</p>
 
 #### <ins>mutateAsset.mutate</ins>
-<p>used to change the mutable properties of an Asset. These specific properties must be already defined as mutable in the schema of asset. Defines a message and initiates the transaction. </p>
+<p>used to change the mutable properties of an Asset. These specific properties must be already defined as mutable in the classification of asset. Defines a message and initiates the transaction. </p>
 <p><strong>Function Signature</strong></p>
 
 `mutate: (
@@ -290,7 +290,7 @@ The following API lists provides an high-level overview about the transactions p
 
 
 #### <ins>queryAssets.queryAsset</ins>
-<p>used to change the mutable properties of an Asset. These specific properties must be already defined as mutable in the schema of asset. Defines a message and initiates the transaction. </p>
+<p>queries asset perstating to specific assets of group assetID. These specific properties must be already defined as mutable in the schema of asset. Defines a message and initiates the transaction. </p>
 <p><strong>Function Signature</strong></p>
 
 `queryAsset: () => Promise<any>;`
@@ -300,7 +300,7 @@ The following API lists provides an high-level overview about the transactions p
 
 
 #### <ins>queryAssets.queryAssetWithID</ins>
-<p>used to change the mutable properties of an Asset. These specific properties must be already defined as mutable in the schema of asset. Only defines and outputs a message object. </p>
+<p>used to query the mutable properties of an Asset with Id. These specific properties must be already defined as mutable in the schema of asset. Only defines and outputs a message object. </p>
 <p><strong>Function Signature</strong></p>
 
 `queryAssetWithID: (id: any) => Promise<any>;`
@@ -384,7 +384,7 @@ The following API lists provides an high-level overview about the transactions p
 
 
 #### <ins>queryMaintainer.queryMaintainerWithID</ins>
-<p>used to query the details of Classification IDs pertaining to the ID argument provided in the function</p>
+<p>used to query the details of maintianer pertaining to the ID argument provided in the function</p>
 <p><strong>Function Signature</strong></p>
 
 `queryMaintainerWithID: (id: any) => Promise<any>;`
@@ -393,7 +393,7 @@ The following API lists provides an high-level overview about the transactions p
 <hr>
 
 ### transaction / order
-<p> APIs pertaining to manipulating the 'order', a DID based entity used to represent orders created to perform a transfer of value between 'identities' and 'assets'. </p>
+<p> APIs pertaining to manipulating the 'order', a DID based entity used to represent orders created to perform a transfer of value between splites of 'assets' or 'wrapped coins'. </p>
 
 #### <ins>defineOrder.define</ins>
 <p>used to define a schema for an order type.  Defines a message and initiates the transaction. </p>
@@ -439,7 +439,7 @@ The following API lists provides an high-level overview about the transactions p
 <p>---------------</p>
 
 #### <ins>makeOrder.make</ins>
-<p>used to issue an order pertaining to a specific classification.  Defines a message and initiates the transaction. </p>
+<p>used to issue an order pertaining to a specific schema.  Defines a message and initiates the transaction. </p>
 <p><strong>Function Signature</strong></p>
 
 `make: (
@@ -468,7 +468,7 @@ The following API lists provides an high-level overview about the transactions p
 
 
 #### <ins>makeOrder.createOrderMakeMsg</ins>
-<p>used to issue an order pertaining to a specific classification. Only defines and outputs a message object. </p>
+<p>used to issue an order pertaining to a specific schema. Only defines and outputs a message object. </p>
 <p><strong>Function Signature</strong></p>
 
 `createOrderMakeMsg: (
@@ -493,7 +493,7 @@ The following API lists provides an high-level overview about the transactions p
 
 
 #### <ins>takeOrder.take</ins>
-<p>used to accept an issued order pertaining to a specific order ID.  Defines a message and initiates the transaction. </p>
+<p>used to put an take order on order book pertaining to a specific order ID.  Defines a message and initiates the transaction. </p>
 <p><strong>Function Signature</strong></p>
 
 `take: (
@@ -593,7 +593,7 @@ The following API lists provides an high-level overview about the transactions p
 <p> APIs pertaining to querying a certain meta property across the entities </p>
 
 #### <ins>queryMeta.queryMetaWithID</ins>
-<p>used to query for a meta property of entities of a certain ID </p>
+<p>used to query metaProperty with assetId </p>
 <p><strong>Function Signature</strong></p>
 
 `queryMetaWithID: (id: any) => Promise<any>;`
@@ -603,7 +603,7 @@ The following API lists provides an high-level overview about the transactions p
 
 
 #### <ins>revealMeta.reveal</ins>
-<p>used to cancel an issued order pertaining to a specific order ID.  Defines a message and initiates the transaction. </p>
+<p>used to reveal the metaProperties for the asset.  Defines a message and initiates the transaction. </p>
 <p><strong>Function Signature</strong></p>
 
 `reveal: (
@@ -623,7 +623,7 @@ The following API lists provides an high-level overview about the transactions p
 
 
 #### <ins>revealMeta.createMetaRevealMsg</ins>
-<p>used to cancel an issued order pertaining to a specific order ID. Only defines and outputs a message object. </p>
+<p>used to reveal the hashed mataProperties. Only defines and outputs a message object. </p>
 <p><strong>Function Signature</strong></p>
 
 `createMetaRevealMsg: (
