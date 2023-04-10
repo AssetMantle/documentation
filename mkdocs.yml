@@ -172,6 +172,9 @@ nav:
           - Using NFT.Storage (with Script): Uploading_NFT_Collection_Using_NFT_Storage_(With_Script).md
           - Using Web3.Storage (without Script): Uploading_Web3_Collection_Using_NFT_Storage_(Without_Script).md
           - Using Web3.Storage (with Script): Uploading_Web3_Collection_Using_NFT_Storage_(With_Script).md
+       - FAQs & Flows:
+          - FAQs: FAQs.md
+          - Flows: Flows.md
   - MantlePlace Overview: MantlePlace_Overview.md
   - MantleBuilder Overview:
       - What is MantleBuilder?: "MantleBuilder_Overview#what-is-mantlebuilder"
