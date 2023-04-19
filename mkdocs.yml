@@ -87,7 +87,7 @@ extra:
       icon: ../assets/images/contact_new.svg
     - name: Resources
       icon: ../assets/images/mantleplace_new.svg
-      
+
 
 # extra:
 #   analytics:
@@ -172,7 +172,7 @@ nav:
           - Using NFT.Storage (with Script): Uploading_NFT_Collection_Using_NFT_Storage_(With_Script).md
           - Using Web3.Storage (without Script): Uploading_Web3_Collection_Using_NFT_Storage_(Without_Script).md
           - Using Web3.Storage (with Script): Uploading_Web3_Collection_Using_NFT_Storage_(With_Script).md
-       - FAQs & Flows:
+      - FAQs & Flows:
           - FAQs: FAQs.md
           - Flows: Flows.md
   - MantlePlace Overview: MantlePlace_Overview.md
