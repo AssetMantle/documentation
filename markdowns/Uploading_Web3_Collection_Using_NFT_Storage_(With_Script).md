@@ -69,13 +69,11 @@ Now, use the API that was created in step 1.
 
 Paste that APIKey in config.js file (web3StorageAPIKey) there.
 
-
 ## 6. Run the Script
 
 ```jsx
 yarn web3-storage-upload
 ```
-
 
 ## Summing Up
 

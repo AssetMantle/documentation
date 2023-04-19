@@ -66,7 +66,6 @@ Now, use the API that was created in step 1.
 
 Paste that APIKey in config.js file (nftStorageAPIKey) there.
 
-
 ## 6. Run the Script
 
 ```jsx
