@@ -256,6 +256,5 @@ Sales can be of 2 types, namely;
 * Creating a collection & creating NFTs are free to use but to trade through the primary markets (minting), Collection ID needs be verified and made live from MantlePlace backend. The stringent but worthy process is an extension of quality control and a spam-proof mechanism on MantlePlace. 
 * For your created NFTs with a collection to be listed for Sales via Public or Private sales backed by Whitelist; the Collection ID needs to be vetted and authorized to go ‘live’ by the AssetMantle team’s backend. To become a MantlePlace Genesis/Post-Genesis Creator, send an email with collection details and NFT asset (art) samples here: communications@assetmantle.one 
 
-
----
+# FLows 
 

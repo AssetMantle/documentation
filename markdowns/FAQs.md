@@ -167,5 +167,3 @@ DIDs are Identifiers and are separate the metadata (DID Subject) and the NFT (DI
 The DID document is just metadata about the x. NFT is the DID Object (y) and is not the DID or DID Subject metadata (x) but rather DID (denom) is a pointer, pointing towards the NFT (y) and metadata (x) is defining the NFT.  
 Basically, DID (denom) points towards the NFT asset (x) and the metadata document (y) which defines the NFT (x), DID (denom) pointer is separate from the NFT asset (y) & its metadata (x). 
 ![](https://i.imgur.com/pb5Slt0.png)
-
- 
