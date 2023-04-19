@@ -1,4 +1,5 @@
 # Welcome to AssetMantle Docs
+
 ## AssetMantle | Redefining Digital Asset Ownership
 
 <div class="welcome">
@@ -70,4 +71,3 @@
       <img src="../assets/images/AssetMantle_Logo_Square.png" /> 
    </div></a>
 </div>
-

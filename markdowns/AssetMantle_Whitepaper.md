@@ -136,6 +136,7 @@ The functionalities of a chain are defined by the `node application` being run b
 * Sentry node: A sync node that serves as sentries or bridge nodes from militarized zone to the public network. These nodes connect to all the peers of the chain and bridge them to the validator nodes for consensus participation and validation activities.
 
 * Light Client: A verifier node that does not sync blocks or their history but can query the current state and verify block headers and transaction proofs. The light client is meant for interacting with the chain and for querying or sending transactions to it without participating in consensus or block validation activities.
+
 ```ditaa {cmd=true args=["-S"]}
 +-------------------------------------------------------------------+
 |                                                                   |
@@ -194,6 +195,7 @@ The functionalities of a chain are defined by the `node application` being run b
 |  +-------------------------------------------------------------+  |
 +-------------------------------------------------------------------+                                   
 ```
+
 **Fig 4.1** Schematic representation of a Node on AssetMantle Platform
 
 #### 4.1.2 State Machine
@@ -226,6 +228,7 @@ Tendermint core and ABCI together form the Tendermint state replication machine 
 
 ### 4.2. Chain
 A chain is an asymmetric component composing the AssetMantle Platform distributed system. A chain has many nodes/validators which are tasked with validating the node application logic assigned to the chain. Each chain has different security, fault tolerance, trustlessness, and decentralization requirement based on the application it runs. The AssetMantle Platform allows the chains to have a different number of validators, types of consensus mechanisms, governance structures, and validator incentivization mechanisms based on the chain requirements.
+
 ```ditaa {cmd=true args=["-S"]}
 +-----------------------------------------------------------------------+
 |                                                                       |
@@ -252,6 +255,7 @@ A chain is an asymmetric component composing the AssetMantle Platform distribute
 |  +-----------------------------------------------------------------+  |
 +-----------------------------------------------------------------------+
 ```
+
 **Fig 4.2** Schematic representation of a Chain on the AssetMantle Platform
 
 #### 4.2.1. Validators
@@ -298,6 +302,7 @@ Every block that is added to a chain produces block rewards. This reward serves 
 Every transaction that is added to a block needs to be paid for by the originator of the transaction as transaction fees. The transaction fees serve the purpose of prioritization of transactions and setting limits on the work that the chain needs to perform to validate one transaction. The transaction fees are calculated as a function of the computation operations required by a node to process the transaction, plus some extra offered to prioritize the transaction(bribe to block proposer?). The fees may or may not have direct economic value but may rather be a function of multiple factors that are defined by the business application logic of the chain.
 
 ### 4.3. Platform
+
 ```ditaa {cmd=true args=["-S"]}
 +-----------------------------------------------------------------+
 |                                                                 |
@@ -334,6 +339,7 @@ Every transaction that is added to a block needs to be paid for by the originato
 |                     +----------------------------------------+  |
 +-----------------------------------------------------------------+
 ```
+
 **Fig 4.3** Schematic representation of the AssetMantle Platform
 
 #### 4.3.1. Core
