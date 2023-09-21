@@ -63,7 +63,7 @@ extra:
 
   #To add icon to side navigation: name is exact navigation item icon is icon path.
   nav_links:
-    - name: 🏆 Introducing AMI Names! 🏆
+    - name: 🏆 Introducing AMI Names!
       icon: ../assets/images/overview_new.svg
     - name: About
       icon: ../assets/images/about_new.svg
@@ -143,7 +143,7 @@ markdown_extensions:
 # Page tree
 nav:
   - Welcome to AssetMantle: index.md
-  - 🏆 Introducing AMI Names! 🏆:
+  - 🏆 Introducing AMI Names!:
       - Overview: "AMIName_Overview.md"
       - Technical Terms: "AMIName_Terminology.md"
   - About:
