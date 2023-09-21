@@ -1,5 +1,3 @@
-# Assets and Metadata File Structuring
-
 # Assets and Metadata Structuring
 
 AssetMantle provides NFT creators the option of off-chain metadata storage.
@@ -48,7 +46,7 @@ Project Folder:
 ```
 
 ```jsx
-type - String, bool, number, URI, height
+type - String, bool, number, URI, height;
 ```
 
 <aside>
@@ -104,17 +102,17 @@ type - String, bool, number, URI, height
 The following properties are reserved at the protocol level so creators are requested to avoid using the following properties as the traits to avoid conflict of interest.
 
 ```jsx
-Authentication
-Burn
-Expiry
-ExchangeRate
-Lock
-MaintainedProperties
-MakerOwnableSplit
-NubID
-Permissions
-Supply
-TakerID
+Authentication;
+Burn;
+Expiry;
+ExchangeRate;
+Lock;
+MaintainedProperties;
+MakerOwnableSplit;
+NubID;
+Permissions;
+Supply;
+TakerID;
 ```
 
 ## NFT Collection Upload

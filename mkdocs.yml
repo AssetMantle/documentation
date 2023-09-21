@@ -63,12 +63,14 @@ extra:
 
   #To add icon to side navigation: name is exact navigation item icon is icon path.
   nav_links:
+    - name: 🏆 Introducing AMI Names! 🏆
+      icon: ../assets/images/overview_new.svg
     - name: About
       icon: ../assets/images/about_new.svg
     - name: "AssetMantle Whitepaper"
       icon: ../assets/images/whitepaper_new.svg
     - name: Overview
-      icon: ../assets/images/overview_new.svg
+      icon: ../assets/images/setup_new.svg
     - name: Terminology
       icon: ../assets/images/terminology_new.svg
     - name: "Why Choose AssetMantle?"
@@ -87,7 +89,10 @@ extra:
       icon: ../assets/images/contact_new.svg
     - name: Resources
       icon: ../assets/images/mantleplace_new.svg
-
+    - name: Creators Docs
+      icon: ../assets/images/whitepaper_new.svg
+    - name: Assets and Metadata Upload
+      icon: ../assets/images/setup_new.svg
 
 # extra:
 #   analytics:
@@ -138,6 +143,9 @@ markdown_extensions:
 # Page tree
 nav:
   - Welcome to AssetMantle: index.md
+  - 🏆 Introducing AMI Names! 🏆:
+      - Overview: "AMIName_Overview.md"
+      - Technical Terms: "AMIName_Terminology.md"
   - About:
       - Introduction: "About_AssetMantle#Introduction"
       - What is AssetMantle?: "About_AssetMantle#what-is-assetmantle"
@@ -190,12 +198,11 @@ nav:
       - Mediakit: MediaKit.md
   - Contact AssetMantle: Contact_AssetMantle.md
   - Assets and Metadata Upload:
-    - File Structuring: Assets_and_Metadata_File_Structuring.md
-    - Using NFT.Storage (without Script): Uploading_NFT_Collection_Using_NFT_Storage_(Without_Script).md
-    - Using NFT.Storage (with Script): Uploading_NFT_Collection_Using_NFT_Storage_(With_Script).md
-    - Using Web3.Storage (without Script): Uploading_Web3_Collection_Using_NFT_Storage_(Without_Script).md
-    - Using Web3.Storage (with Script): Uploading_Web3_Collection_Using_NFT_Storage_(With_Script).md
-
+      - File Structuring: Assets_and_Metadata_File_Structuring.md
+      - Using NFT.Storage (without Script): Uploading_NFT_Collection_Using_NFT_Storage_(Without_Script).md
+      - Using NFT.Storage (with Script): Uploading_NFT_Collection_Using_NFT_Storage_(With_Script).md
+      - Using Web3.Storage (without Script): Uploading_Web3_Collection_Using_NFT_Storage_(Without_Script).md
+      - Using Web3.Storage (with Script): Uploading_Web3_Collection_Using_NFT_Storage_(With_Script).md
 
 extra_css:
   - assets/stylesheets/custom.css
