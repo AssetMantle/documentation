@@ -15,7 +15,7 @@ docs_dir: markdowns
 theme:
   name: material
   custom_dir: resources
-  favicon: ../assets/images/AssetMantle_Logo_Square.png
+  favicon: ../assets/images/Mediakit/png/AM_Logo.png
 
   features:
     - tabs
