@@ -21,11 +21,6 @@ The Mantle token ($MNTL) acts as the gateway into the Mantle ecosystem.
 
 ## Product Offerings
 
-AssetMantle offers two products to all of its users:
-
-1. MantlePlace
-2. MantleBuilder
-
 ### MantlePlace
 
 MantlePlace is a very intuitive and easy-to-use next-gen marketplace for NFT.
@@ -35,11 +30,3 @@ It facilitates easy trading (buy/sell) of NFTs by simply creating an account wit
 The MantlePlace is positioned to be an easy-to-use platform for creators with seamless UI, lazy minting capability, TradeRoom feature, and much more.
 
 Head over to the MantlePlace overview section to dive deeper.
-
-### MantleBuilder
-
-MantleBuilder is another innovation that the Mantle team is bringing to the doorstep of all creators.
-
-Anybody can build their very own “store” (a.k.a. marketplace) with the MantleBuilder. This enables them to have their own branding and build a close community of loyal supporters and followers.
-
-For creators, this could be a game-changer as they would be able to completely curate the experience they wish to provide to their fans and audiences. With relevant modules and complete no-code customizability, creators can be very selective and fine tune the building process of their storefronts to better adhere to their projects mission and vision.

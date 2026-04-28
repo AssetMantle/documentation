@@ -69,16 +69,6 @@ These are official AssetMantle resources that you can include on your marketing 
          <p>MantlePlace Dark</p> 
          <div class="links"><a href="../assets/images/Mediakit/png/MantlePlace-Logo-Dark.png">PNG</a>&nbsp;<a href="../assets/images/Mediakit/svg/MantlePlace-Logo-Dark.svg">SVG</a></div>
    </div>
-   <div class="media-card">
-    <div class="dark-background">  <img src="../assets/images/Mediakit/png/MantleBuilder-Logo-Light.png" /> </div>
-         <p>MantleBuilder Light </p>
-         <div class="links"><a href="../assets/images/Mediakit/png/MantlePlace-Logo-Light.png">PNG</a>&nbsp;<a href="../assets/images/Mediakit/svg/MantleBuilder-Logo-Light.svg">SVG</a></div>
-   </div>
-   <div class="media-card">
- <div class="dark-background">  <img src="../assets/images/Mediakit/png/MantleBuilder-Logo-Dark.png" /> </div>
-         <p>MantleBuilder Dark</p>
-         <div class="links"><a href="../assets/images/Mediakit/png/MantleBuilder-Logo-Dark.png">PNG</a>&nbsp;<a href="../assets/images/Mediakit/svg/MantleBuilder-Logo-Dark.svg">SVG</a></div>
-   </div>
 </div>
 
 <div class="maincard">

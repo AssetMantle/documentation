@@ -4,10 +4,6 @@ AssetMantle envisions changing the landscape of NFT trading for the better.
 
 With never-before-seen features, AssetMantle unleashes the true potential of NFTs for traders and creators alike.
 
-## Complete Customization
-
-AssetMantle empowers creators to build their custom-branded NFT storefronts with zero coding. MantleBuilder is a no-code front-end NFT store builder that gives complete control to creators all the way from layout, branding, and royalty percentage.
-
 ## Multi-Chain Access
 
 AssetMantle allows users to use their NFTs across metaverses on different chains thanks to the interoperability facilitated by IBC protocol and interNFT standardization.
@@ -38,14 +34,6 @@ Minting allows a verified creator to simply create/import their assets, work on 
 Ledger uses state-of-the-art technology to secure your assets and deliver a seamless experience to buy/sell crypto assets. With the recent hacks in wallet-based implementations, it is very important to secure the NFT assets.
 
 AssetMantle now supports the Ledger hardware wallet to store all your NFTs securely and avoid phishing attacks into your wallets.
-
-### Build Your Very Own Storefront/Marketplace
-
-MantleBuilder will allow creators to create their own storefronts or NFT marketplaces. This marketplace will further allow users to upload, publish, and sell their minted NFTs.
-
-The storefront will use the underlying protocol level logic to govern the demand & pricing mechanism to control the NFT auction & transactions.
-
-Additional benefits of this marketplace are that economic principles of supply and demand become automatically integrated into the system, allowing the community to determine the fair price of user-generated assets.
 
 ### IPFS Storage Mechanism
 
