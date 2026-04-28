@@ -79,8 +79,6 @@ extra:
       icon: ../assets/images/tokenomics_new.svg
     - name: "MantleDrop ($MNTL Airdrop)"
       icon: ../assets/images/overview_new.svg
-    - name: "MantleBuilder Overview"
-      icon: ../assets/images/mantlebuilder_new.svg
     - name: "MantlePlace Overview"
       icon: ../assets/images/mantleplace_new.svg
     - name: Quick Setup
@@ -184,9 +182,6 @@ nav:
           - FAQs: FAQs.md
           - Flows: Flows.md
   - MantlePlace Overview: MantlePlace_Overview.md
-  - MantleBuilder Overview:
-      - What is MantleBuilder?: "MantleBuilder_Overview#what-is-mantlebuilder"
-      - Features of MantleBuilder: "MantleBuilder_Overview#features-of-mantlebuilder"
   - Quick Setup:
       - Overview: "Quick_Setup#overview"
       - Prerequisites: "Quick_Setup#prerequisites"

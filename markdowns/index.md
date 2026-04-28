@@ -41,15 +41,6 @@
       </div>
       <img src="../assets/images/AssetMantle_Logo_Square.png" /> 
    </div></a>
-    <a href="https://docs.assetmantle.one/MantleBuilder_Overview" target="_blank">
-   <div class="card">
-      <div>
-           <p class="heading">What is MantleBuilder?</p>
-         <p>Learn about the innovative no-code builder.</p>
-      </div>
-      <img src="../assets/images/AssetMantle_Logo_Square.png" /> 
-     
-   </div></a>
 </div>
 <div class="maincard">
 <a href="https://docs.assetmantle.one/Mantle_Tokenomics" target="_blank">
